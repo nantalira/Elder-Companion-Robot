@@ -1,0 +1,34 @@
+[
+  {
+    "name": "jadwal_pengajian",
+    "pattern": "(\\bsenin\\b|\\bselasa\\b|\\brabu\\b|\\bkamis\\b|\\bjumat\\b)"
+  },
+  {
+    "name": "pengajian",
+    "pattern": "(\\btadarusan\\b|\\btafsir\\ alquran\\b|\\btafsir\\ hadist\\b|\\bpengajian\\ fikih\\b|\\bsejarah\\ islam\\b)"
+  },
+  {
+    "name": "waktu_kegiatan",
+    "pattern": "(\\b04\\.30\\b|\\b07\\.00\\b|\\b07\\.15\\b|\\b08\\.00\\b|\\b09\\.00\\b|\\b12\\.00\\b|\\b12\\.30\\b|\\b12\\.45\\b|\\b15\\.00\\b|\\b18\\.00\\b|\\b19\\.00\\b|\\b19\\.30\\b|\\b19\\.45\\b|\\b21\\.00\\b)"
+  },
+  {
+    "name": "kesukaan",
+    "pattern": "(\\bbudi\\b|\\bandi\\b|\\bsusi\\b)"
+  },
+  {
+    "name": "lagu_kesukaan",
+    "pattern": "(\\bkau\\ adalah\\ segalanya\\b|\\bcinta\\ sejati\\b|\\bkau\\ yang\\ terindah\\b|\\bberhenti\\ berharap\\b|\\bperih\\b|\\bkarena\\ ku\\ sanggup\\b)"
+  },
+  {
+    "name": "solat",
+    "pattern": "(\\bsolat\\ subuh\\b|\\bsolat\\ zuhur\\b|\\bsolat\\ ashar\\b|\\bsolat\\ maghrib\\b|\\bsolat\\ isya\\b|\\bsolat\\ dhuha\\b|\\bsolat\\ tahajud\\b|\\bsolat\\ istikharah\\b|\\bsolat\\ hajat\\b)"
+  },
+  {
+    "name": "jenis_solat",
+    "pattern": "(\\bwajib\\b|\\bsunnah\\b)"
+  },
+  {
+    "name": "tujuan_solat",
+    "pattern": "(\\bmendapatkan\\ cahaya\\ pada\\ hari\\ kiamat\\b|\\bterapi\\ jantung\\ dan\\ pencernaan\\b|\\bpahala\\ dua\\ kali\\ lipat\\b|\\bmempercepat\\ dikabulkan\\ doa\\b|\\bmendapat\\ pahala\\ setara\\ dengan\\ melaksanakan\\ shalat\\ malam\\b|\\bmemperlancar\\ rezeki\\b|\\bdikabulkan\\ doa\\ dan\\ diampuni\\ dosa\\b|\\bmendapatkan\\ petunjuk\\ dari\\ allah\\b|\\bkeinginnan\\ cepat\\ dikabulkan\\b)"
+  }
+]

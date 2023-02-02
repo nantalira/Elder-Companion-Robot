@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+    - rule: Say goodbye anytime the user says goodbye
+      steps:
+          - intent: goodbye
+          - action: utter_goodbye
+
+    - rule: Say 'I am a bot' anytime the user challenges
+      steps:
+          - intent: bot_challenge
+          - action: utter_iamabot
+
+    - rule: Kegiatan Sehari hari
+      steps:
+          - intent: query_kegiatan
+          - action: action_query_kegiatan
+
+    - rule: Ulang Tahun
+      steps:
+          - intent: query_ulang_tahun
+          - action: action_query_ulang_tahun
+          - action: utter_ulang_tahun
+
+    - rule: Lagu Kesukaan
+      steps:
+          - intent: query_lagu_kesukaan
+          - action: action_query_lagu_kesukaan
+
+    - rule: Mainkan Lagu
+      steps:
+          - intent: command_lagu
+          - action: utter_mainkan_lagu

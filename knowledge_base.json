@@ -1,0 +1,411 @@
+{
+    "pengajian": [
+        {
+            "id": "0",
+            "nama_pengajian": "tadarusan",
+            "tujuan_pengajian": "Khataman Al-Quran",
+            "jadwal_pengajian": "senin",
+            "materi_pengajian": "Membaca beberapa ayat Al-Quran",
+            "perlengkapan_pengajian": "Mukena dan Al-Quran",
+            "tempat_pengajian": "Masjid",
+            "pembicara_pengajian": "Ustadzah"
+        },
+        {
+            "id": "1",
+            "nama_pengajian": "tafsir alquran",
+            "tujuan_pengajian": "Belajar arti dan makna dari Al-Quran",
+            "jadwal_pengajian": "selasa",
+            "materi_pengajian": "Membaca dan menafsirkan beberapa ayat Al-Quran",
+            "perlengkapan_pengajian": "Mukena dan Al-Quran terjemahan",
+            "tempat_pengajian": "Masjid",
+            "pembicara_pengajian": "Ustadzah"
+        },
+        {
+            "id": "2",
+            "nama_pengajian": "tafsir hadist",
+            "tujuan_pengajian": "Belajar hadist Nabi Muhammad SAW, termasuk keutamaan dan kewajiban yang terkandung di dalamnya",
+            "jadwal_pengajian": "rabu",
+            "materi_pengajian": "Membaca dan menafsirkan beberapa Hadist Nabi Muhammad SAW",
+            "perlengkapan_pengajian": "Mukena dan buku hadist",
+            "tempat_pengajian": "Masjid",
+            "pembicara_pengajian": "Ustadzah"
+        },
+        {
+            "id": "3",
+            "nama_pengajian": "pengajian fikih",
+            "tujuan_pengajian": "Belajar hukum-hukum Islam",
+            "jadwal_pengajian": "kamis",
+            "materi_pengajian": "Dasar-dasar, Bab, Masalah, dan Pendapat dalam Fikih",
+            "perlengkapan_pengajian": "Mukena dan buku Fikih",
+            "tempat_pengajian": "Masjid",
+            "pembicara_pengajian": "Ustadzah"
+        },
+        {
+            "id": "4",
+            "nama_pengajian": "sejarah islam",
+            "tujuan_pengajian": "Mempelajari tentang Sejarah Islam",
+            "jadwal_pengajian": "jumat",
+            "materi_pengajian": "Sejarah Islam dari masa Nabi Muhammad SAW sampai masa kini",
+            "perlengkapan_pengajian": "Mukena",
+            "tempat_pengajian": "Masjid",
+            "pembicara_pengajian": "Ustadzah"
+        }
+    ],
+    "solat": [
+        {
+            "id": "0",
+            "nama_solat": "solat subuh",
+            "jadwal_solat": "Sebelum matahari terbit atau sekitar jam 4.30 sampai 5.00",
+            "waktu_solat": "4.30",
+            "jenis_solat": "wajib",
+            "tujuan_solat": "mendapatkan cahaya pada hari kiamat"
+        },
+        {
+            "id": "1",
+            "nama_solat": "solat zuhur",
+            "jadwal_solat": "Setelah matahari tergelincir hingga sebelum matahari terbenam, atau sekitar jam 12.00 sampai 13.00",
+            "waktu_solat": "12.00",
+            "jenis_solat": "wajib",
+            "tujuan_solat": "terapi jantung dan pencernaan"
+        },
+        {
+            "id": "2",
+            "nama_solat": "solat ashar",
+            "jadwal_solat": "Setelah matahari terbenam hingga sebelum matahari terbenam kembali, atau sekitar jam 16.00 sampai 17.00",
+            "waktu_solat": "16.00",
+            "jenis_solat": "wajib",
+            "tujuan_solat": "pahala dua kali lipat"
+        },
+        {
+            "id": "3",
+            "nama_solat": "solat maghrib",
+            "jadwal_solat": "Setelah matahari terbenam, atau sekitar jam 18.00 sampai 18.30",
+            "waktu_solat": "18.00",
+            "jenis_solat": "wajib",
+            "tujuan_solat": "mempercepat dikabulkannya doa"
+        },
+        {
+            "id": "4",
+            "nama_solat": "solat isya",
+            "jadwal_solat": "Setelah solat maghrib hingga sebelum terbenamnya matahari keesokan harinya, atau sekitar jam 19.00 sampai 20.00",
+            "waktu_solat": "19.00",
+            "jenis_solat": "wajib",
+            "tujuan_solat": "mendapat pahala setara dengan melaksanakan shalat malam"
+        },
+        {
+            "id": "5",
+            "nama_solat": "solat dhuha",
+            "jadwal_solat": "Setelah terbitnya matahari hingga sebelum matahari tergelincir, atau sekitar jam 7.00 sampai 9.00",
+            "waktu_solat": "7.00",
+            "jenis_solat": "sunnah",
+            "tujuan_solat": "memperlancar rezeki"
+        },
+        {
+            "id": "6",
+            "nama_solat": "solat tahajud",
+            "jadwal_solat": "Setelah solat isya hingga sebelum subuh tetapi harus tidur terlebih dahulu, atau sekitar jam 22.00 sampai 3.00",
+            "waktu_solat": "22.00",
+            "jenis_solat": "sunnah",
+            "tujuan_solat": "dikabulkan doa dan diampuni dosa"
+        },
+        {
+            "id": "7",
+            "nama_solat": "solat istikharah",
+            "jadwal_solat": "Saat ingin membuat keputusan penting",
+            "waktu_solat": "Setiap saat",
+            "jenis_solat": "sunnah",
+            "tujuan_solat": "mendapatkan petunjuk dari allah"
+        },
+        {
+            "id": "8",
+            "nama_solat": "solat hajat",
+            "jadwal_solat": "Untuk memenuhi hajat yang mendesak atau keperluan yang harus segera dipenuhi",
+            "waktu_solat": "Setiap saat",
+            "jenis_solat": "sunnah",
+            "tujuan_solat": "keinginan cepat dikabulkan"
+        }
+    ],
+    "penyakit": [
+        {
+            "id": "0",
+            "nama_penyakit": "diabetes",
+            "penyebab_penyakit": "Kebanyakan disebabkan oleh resistensi insulin dan kekurangan insulin",
+            "gejala_penyakit": "penglihatan kabur, sering buang air kecil, rasa haus yang berlebihan, lapar yang berlebihan, lelah, dan berat badan yang menurun",
+            "obat_penyakit": "metformin atau glimepiride"
+        },
+        {
+            "id": "1",
+            "nama_penyakit": "tekanan darah tinggi",
+            "penyebab_penyakit": "Faktor risiko seperti obesitas, kurang berolahraga, merokok, konsumsi alkohol, dll",
+            "gejala_penyakit": "Tidak ada gejala yang jelas, tetapi dapat menyebabkan kerusakan pada organ-organ tubuh jika dibiarkan",
+            "obat_penyakit": "lisinopril atau amlodipine"
+        },
+        {
+            "id": "2",
+            "nama_penyakit": "kolesterol tinggi",
+            "penyebab_penyakit": "Faktor risiko seperti diet tinggi lemak, obesitas, kurang berolahraga, dll",
+            "gejala_penyakit": "Tidak ada gejala yang jelas, tetapi dapat menyebabkan kerusakan pada pembuluh darah jika dibiarkan",
+            "obat_penyakit": "astorvastatin"
+        },
+        {
+            "id": "3",
+            "nama_penyakit": "masalah kesehatan jantung",
+            "penyebab_penyakit": "Faktor risiko seperti tekanan darah tinggi, kolesterol tinggi, obesitas, dll",
+            "gejala_penyakit": "Sesak napas, nyeri dada, detak jantung yang tidak normal, dll",
+            "obat_penyakit": "aspirin atau clopidogrel"
+        },
+        {
+            "id": "4",
+            "nama_penyakit": "masalah kesehatan tulang dan sendi",
+            "penyebab_penyakit": "Faktor risiko seperti usia, obesitas, kurang berolahraga, dll",
+            "gejala_penyakit": "Nyeri dan kaku pada sendi, lemah pada otot, dll",
+            "obat_penyakit": "paracetamol atau ibuprofen"
+        },
+        {
+            "id": "5",
+            "nama_penyakit": "masalah kesehatan mental",
+            "penyebab_penyakit": "Faktor risiko seperti peristiwa traumatis, genetika, dll",
+            "gejala_penyakit": "Anxiety, depresi, perubahan dalam perilaku, dll",
+            "obat_penyakit": "sertraline atau fluoxetine"
+        },
+        {
+            "id": "6",
+            "nama_penyakit": "masalah tidur",
+            "penyebab_penyakit": "Faktor risiko seperti stres, rutinitas tidur yang tidak teratur, dll",
+            "gejala_penyakit": "Sulit tidur yang buruk, sulit tidur, bangun dalam malam, dll",
+            "obat_penyakit": "zolpidem atau eszopiclone"
+        }
+    ],
+    "obat": [
+        {
+            "id": "0",
+            "nama_obat": "metformin",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan biguanide lainnya",
+            "dosis_obat": "1 kali sehari, 500mg",
+            "jadwal_obat": "Minum setelah makan",
+            "penyakit_obat": "Diabetes"
+        },
+        {
+            "id": "1",
+            "nama_obat": "glimepiride",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan sulfonilurea lainnya",
+            "dosis_obat": "1 kali sehari, 2mg",
+            "jadwal_obat": "Minum sebelum makan",
+            "penyakit_obat": "Diabetes"
+        },
+        {
+            "id": "2",
+            "nama_obat": "lisinopril",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan ACE inhibitor lainnya",
+            "dosis_obat": "1 kali sehari, 10mg",
+            "jadwal_obat": "Minum setelah makan",
+            "penyakit_obat": "Tekanan Darah Tinggi"
+        },
+        {
+            "id": "3",
+            "nama_obat": "amlodipine",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan calcium channel blocker lainnya",
+            "dosis_obat": "1 kali sehari, 5mg",
+            "jadwal_obat": "Minum sebelum tidur",
+            "penyakit_obat": "Tekanan Darah Tinggi"
+        },
+        {
+            "id": "4",
+            "nama_obat": "atorvastatin",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan statin lainnya",
+            "dosis_obat": "1 kali sehari, 20mg",
+            "jadwal_obat": "Minum sebelum makan",
+            "penyakit_obat": "Kolesterol Tinggi"
+        },
+        {
+            "id": "5",
+            "nama_obat": "aspirin",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan antikoagulan lainnya",
+            "dosis_obat": "1 kali sehari, 81mg",
+            "jadwal_obat": "Minum setelah makan",
+            "penyakit_obat": "Masalah Kesehatan Jantung"
+        },
+        {
+            "id": "6",
+            "nama_obat": "clopidogrel",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan antiplatelet lainnya",
+            "dosis_obat": "1 kali sehari, 75mg",
+            "jadwal_obat": "Minum sebelum tidur",
+            "penyakit_obat": "Masalah Kesehatan Jantung"
+        },
+        {
+            "id": "7",
+            "nama_obat": "paracetamol",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan analgesik lainnya",
+            "dosis_obat": "3 kali sehari, 500mg",
+            "jadwal_obat": "Minum setelah makan",
+            "penyakit_obat": "Masalah Kesehatan Tulang dan Sendi"
+        },
+        {
+            "id": "8",
+            "nama_obat": "ibuprofen",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan NSAID lainnya",
+            "dosis_obat": "3 kali sehari, 400mg",
+            "jadwal_obat": "Minum sebelum tidur",
+            "penyakit_obat": "Masalah Kesehatan Tulang dan Sendi"
+        },
+        {
+            "id": "9",
+            "nama_obat": "sertraline",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan SSRI lainnya",
+            "dosis_obat": "1 kali sehari, 50mg",
+            "jadwal_obat": "Minum sebelum tidur",
+            "penyakit_obat": "Masalah Kesehatan Mental"
+        },
+        {
+            "id": "10",
+            "nama_obat": "olanzapine",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan antipsychotic lainnya",
+            "dosis_obat": "1 kali sehari, 10mg",
+            "jadwal_obat": "Minum setelah makan",
+            "penyakit_obat": "Masalah Kesehatan Mental"
+        },
+        {
+            "id": "11",
+            "nama_obat": "zolpidem",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan sedatif hipnotik lainnya",
+            "dosis_obat": "1 kali sehari, 10mg",
+            "jadwal_obat": "Minum sebelum tidur",
+            "penyakit_obat": "Masalah Tidur"
+        },
+        {
+            "id": "12",
+            "nama_obat": "doxepin",
+            "larangan_obat": "Larangan minum bersama dengan obat golongan tricyclic antidepressants lainnya",
+            "dosis_obat": "1 kali sehari, 75mg",
+            "jadwal_obat": "Minum sebelum tidur",
+            "penyakit_obat": "Masalah Tidur"
+        }
+    ],
+    "kegiatan": [
+        {
+            "id": "0",
+            "nama_kegiatan": "Solat Subuh",
+            "waktu_kegiatan": "04.30"
+        },
+        {
+            "id": "1",
+            "nama_kegiatan": "Sarapan",
+            "waktu_kegiatan": "07.00"
+        },
+        {
+            "id": "2",
+            "nama_kegiatan": "Minum Obat",
+            "waktu_kegiatan": "07.15"
+        },
+        {
+            "id": "3",
+            "nama_kegiatan": "Pengajian",
+            "waktu_kegiatan": "08.00"
+        },
+        {
+            "id": "4",
+            "nama_kegiatan": "Senam",
+            "waktu_kegiatan": "09.00"
+        },
+        {
+            "id": "5",
+            "nama_kegiatan": "Solat Zuhur",
+            "waktu_kegiatan": "12.00"
+        },
+        {
+            "id": "6",
+            "nama_kegiatan": "Makan Siang",
+            "waktu_kegiatan": "12.30"
+        },
+        {
+            "id": "7",
+            "nama_kegiatan": "Minum Obat",
+            "waktu_kegiatan": "12.45"
+        },
+        {
+            "id": "8",
+            "nama_kegiatan": "Solat Ashar",
+            "waktu_kegiatan": "15.00"
+        },
+        {
+            "id": "9",
+            "nama_kegiatan": "Solat Maghrib",
+            "waktu_kegiatan": "18.00"
+        },
+        {
+            "id": "10",
+            "nama_kegiatan": "Solat Isya",
+            "waktu_kegiatan": "19.00"
+        },
+        {
+            "id": "11",
+            "nama_kegiatan": "Makan Malam",
+            "waktu_kegiatan": "19.30"
+        },
+        {
+            "id": "12",
+            "nama_kegiatan": "Minum Obat",
+            "waktu_kegiatan": "19.45"
+        },
+        {
+            "id": "13",
+            "nama_kegiatan": "Tidur",
+            "waktu_kegiatan": "21.00"
+        }
+    ],
+    "ulang_tahun": [
+        {
+            "id": "0",
+            "nama_ulangtahun": "Budi",
+            "tanggal_lahir": "01-01-1990"
+        },
+        {
+            "id": "1",
+            "nama_ulangtahun": "Susi",
+            "tanggal_lahir": "13-03-1991"
+        },
+        {
+            "id": "2",
+            "nama_ulangtahun": "Andi",
+            "tanggal_lahir": "05-05-1992"
+        },
+        {
+            "id": "3",
+            "nama_ulangtahun": "Rudi",
+            "tanggal_lahir": "07-07-1993"
+        }
+    ],
+    "lagu_kesukaan": [
+        {
+            "id": "0",
+            "judul": "kau adalah segalanya",
+            "kesukaan": "budi"
+        },
+        {
+            "id": "1",
+            "judul": "cinta sejati",
+            "kesukaan": "susi"
+        },
+        {
+            "id": "2",
+            "judul": "kau yang terindah",
+            "kesukaan": "andi"
+        },
+        {
+            "id": "3",
+            "judul": "berhenti berharap",
+            "kesukaan": "budi"
+        },
+        {
+            "id": "4",
+            "judul": "perih",
+            "kesukaan": "susi"
+        },
+        {
+            "id": "5",
+            "judul": "karena ku sanggup",
+            "kesukaan": "andi"
+        }
+    ]
+}

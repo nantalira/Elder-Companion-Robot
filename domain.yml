@@ -1,0 +1,219 @@
+version: "3.1"
+
+intents:
+    - greet
+    - goodbye
+    - affirm
+    - deny
+    - mood_great
+    - mood_unhappy
+    - bot_challenge
+    - query_pengajian
+    - query_solat
+    - query_penyakit
+    - query_obat
+    - query_kegiatan
+    - query_ulang_tahun
+    - command_lagu
+    - query_lagu_kesukaan
+
+entities:
+    - object_type
+    - attribute
+    - mention
+    - pengajian
+    - jadwal_pengajian
+    - solat
+    - jenis_solat
+    - tujuan_solat
+    - gejala_penyakit
+    - penyakit
+    - penyakit_obat
+    - obat
+    - waktu_kegiatan
+    - tanggal_lahir
+    - lagu_kesukaan
+    - kesukaan
+
+slots:
+    knowledge_base_last_object:
+        type: any
+        mappings:
+            - type: custom
+
+    knowledge_base_last_object_type:
+        type: any
+        mappings:
+            - type: custom
+
+    knowledge_base_listed_objects:
+        type: any
+        mappings:
+            - type: custom
+
+    knowledge_base_objects:
+        type: any
+        mappings:
+            - type: custom
+
+    object_type:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: object_type
+
+    mention:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: mention
+
+    attribute:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: attribute
+
+    jadwal_pengajian:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: jadwal_pengajian
+
+    pengajian:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: pengajian
+
+    solat:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: solat
+
+    jenis_solat:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: jenis_solat
+
+    tujuan_solat:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: tujuan_solat
+
+    gejala_penyakit:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: gejala_penyakit
+
+    penyakit:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: penyakit
+
+    penyakit_obat:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: penyakit_obat
+
+    obat:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: obat
+
+    waktu_kegiatan:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: waktu_kegiatan
+
+    tanggal_lahir:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: tanggal_lahir
+
+    lagu_kesukaan:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: lagu_kesukaan
+
+    kesukaan:
+        type: text
+        influence_conversation: false
+        mappings:
+            - type: from_entity
+              entity: kesukaan
+
+actions:
+    - action_query_pengajian
+    - action_query_solat
+    - action_object_type
+    - action_query_kegiatan
+    - action_query_penyakit
+    - action_query_obat
+    - action_query_ulang_tahun
+    - action_query_lagu_kesukaan
+
+responses:
+    utter_greet:
+        - text: "Hey! How are you?"
+
+    utter_cheer_up:
+        - text: "Here is something to cheer you up:"
+          image: "https://i.imgur.com/nGF1K8f.jpg"
+
+    utter_greet_kb:
+        - text: "Halo saya bot yang akan membantu anda mencari beberapa informasi tentang pengajian, solat, penyakit, dan obat obatan."
+
+    utter_ask_kb:
+        - text: "Apakah hal tersebut membantu anda?, atau ingin mencari topik lain seperti pengajian, solat, penyakit, dan obat obatan?"
+
+    utter_did_that_help:
+        - text: "Did that help you?"
+
+    utter_happy:
+        - text: "Great, carry on!"
+
+    utter_goodbye:
+        - text: "Terimakasih sudah menggunakan layanan kami."
+
+    utter_iamabot:
+        - text: "I am a bot, powered by Rasa."
+
+    utter_ask_rephrase:
+        - text: "Maaf, saya tidak mengerti maksud anda."
+        - text: "Bisakah anda mengulanginya?"
+
+    utter_ulang_tahun:
+        - text: "Mainkan lagu ulang tahun"
+
+    utter_mainkan_lagu:
+        - text: "Memainkan lagu {lagu_kesukaan}"
+
+session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true

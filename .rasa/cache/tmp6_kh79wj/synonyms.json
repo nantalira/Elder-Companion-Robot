@@ -1,0 +1,17 @@
+{
+  "ulang tahun": "ulang_tahun",
+  "lagu kesukaan": "lagu_kesukaan",
+  "hari": "jadwal_pengajian",
+  "belajar": "materi_pengajian",
+  "untuk": "tujuan_pengajian",
+  "bawa": "perlengkapan_pengajian",
+  "dibawa": "perlengkapan_pengajian",
+  "pembicara": "pembicara_pengajian",
+  "tempat": "tempat_pengajian",
+  "kapan": "jadwal_solat",
+  "jam": "waktu_solat",
+  "buat": "tujuan_solat",
+  "obatnya": "obat_penyakit",
+  "penyebabnya": "penyebab_penyakit",
+  "gejala": "gejala_penyakit"
+}
