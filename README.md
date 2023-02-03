@@ -28,3 +28,7 @@
 - menggabungkan dengan model untuk memainkan lagu dari mas adhiem
 - mencoba membuat speech to text dan text to speech
 - kalo diperbolehkan membuat dalam satu folder knlowledge base dan berbeda file json
+
+## SARAN
+
+- setiap topik atau entitas di pisahkan dalam json yang berbeda
