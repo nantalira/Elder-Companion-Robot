@@ -21,3 +21,9 @@
 -   ketika selesai langsung mati
 -   tidak bisa menampilkan object representation lebh dari 5
 -   bertanya solat dari tujuannya
+
+## WHAT NEXT
+
+- menyempurnakan model dan meminimalisir erorr yang ada
+- menggabungkan dengan model untuk memainkan lagu dari mas adhiem
+- mencoba membuat speech to text dan text to speech
