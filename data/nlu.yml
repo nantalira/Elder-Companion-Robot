@@ -7,18 +7,12 @@ nlu:
           - halo
           - halo rasa
           - hai bot
-
-    - intent: goodbye
-      examples: |
-          - sampai jumpa
-          - selamat tinggal
-          - sampai nanti
-          - terimakasih
+          - halo sekar
 
     - intent: affirm
       examples: |
           - iya
-          - ya
+          - ya ganti
           - yes
           - yep
           - iya ingin tanya yang lain
@@ -30,103 +24,117 @@ nlu:
           - nggak
           - cukup
           - sudah
+          - sampai jumpa
+          - selamat tinggal
+          - sampai nanti
+          - terimakasih
 
     - intent: bot_challenge
       examples: |
-          - are you a bot?
-          - are you a human?
-          - am I talking to a bot?
-          - am I talking to a human?
-
-    - intent: query_kegiatan
-      examples: |
-          - [kegiatan]{"entity": "object_type"} jam [12.00]{"entity": "waktu_kegiatan"}
-
-    - intent: query_ulang_tahun
-      examples: |
-          - [ulang tahun]{"entity": "object_type", "value": "ulang_tahun"} tanggal [01-01-1990]{"entity": "tanggal_lahir"}
-
-    - intent: query_lagu_kesukaan
-      examples: |
-          - mainkan [lagu kesukaan]{"entity": "object_type", "value": "lagu_kesukaan"} [budi]{"entity": "kesukaan"}
-          - tolong mainkan [lagu kesukaan]{"entity": "object_type", "value": "lagu_kesukaan"} [budi]{"entity": "kesukaan"}
-          - [lagu kesukaan]{"entity": "object_type", "value": "lagu_kesukaan"} [budi]{"entity": "kesukaan"}
-
-    - intent: command_lagu
-      examples: |
-          - mainkan lagu yang judulnya [cinta sejati]{"entity": "lagu_kesukaan"}
-          - putar lagu [cinta sejati]{"entity": "lagu_kesukaan"}
-          - mainkan lagu [cinta sejati]{"entity": "lagu_kesukaan"}
+          - apakah kamu robot?
+          - apakah kamu manusia?
+          - saya ingin bertanya apakah kamu robot?
+          - saya ingin bertanya apakah kamu manusia?
+          - siapa kamu
 
     - intent: query_pengajian
       examples: |
           - saya ingin bertanya tentang [pengajian]{"entity": "object_type"}
           - mau nanya tentang [pengajian]{"entity": "object_type"}
-          - [pengajian]{"entity": "object_type"} apa saja yang ada di panti?
-          - hari [senin]{"entity": "jadwal_pengajian"} kita [pengajian]{"entity": "object_type"} apa ya
-          - kalau hari [senin]{"entity": "jadwal_pengajian"} [pengajian]{"entity": "object_type"} apa ya
-          - [Tadarusan]{"entity": "pengajian"} [hari]{"entity": "attribute", "value": "jadwal_pengajian"} apa ya?
-          - [tafsir alquran]{"entity": "pengajian"} [hari]{"entity": "attribute", "value": "jadwal_pengajian"} apa
-          - Pengajian [tadi]{"entity": "mention"} kita [belajar]{"entity": "attribute", "value": "materi_pengajian"} apa?
-          - Pengajian [tadi]{"entity": "mention"} sebenarnya [untuk]{"entity": "attribute", "value": "tujuan_pengajian"} apa?
-          - [Tadarusan]{"entity": "pengajian"} suruh [bawa]{"entity": "attribute", "value": "perlengkapan_pengajian"} apa ya?
-          - apa saja yang harus [dibawa]{"entity": "attribute", "value": "perlengkapan_pengajian"} saat [tadarusan]{"entity": "pengajian"}?
-          - siapa [pembicara]{"entity": "attribute", "value": "pembicara_pengajian"} [pengajian]{"entity": "object_type"} [tadi]{"entity": "mention"}?
-          - siapa [pembicara]{"entity": "attribute", "value": "pembicara_pengajian"} saat pengajian [tadarusan]{"entity": "pengajian"}?
-          - dimana [tempat]{"entity": "attribute", "value": "tempat_pengajian"} pengajian [tadarusan]{"entity": "pengajian"}?
+          - [tafsir alquran]{"entity": "pengajian"} [hari]{"entity": "attribute", "value": "jadwal"} apa
+          - pengajian [fikih]{"entity": "pengajian"} [hari]{"entity": "attribute", "value": "jadwal"} apa
+          - [tadarusan]{"entity": "pengajian"} [kapan]{"entity": "attribute", "value": "jadwal"} ya
+          - hari [senin]{"entity": "jadwal"} kita [pengajian]{"entity": "object_type"} apa ya
+          - kalau hari [senin]{"entity": "jadwal"} [pengajian]{"entity": "object_type"} apa ya
+          - pengajian [tadi]{"entity": "mention"} kita [belajar]{"entity": "attribute", "value": "materi"} apa?
+          - pengajian [fikih]{"entity": "pengajian"} sebenarnya [untuk]{"entity": "attribute", "value": "tujuan"} apa?
+          - pengajian [tadi]{"entity": "mention"} sebenarnya [buat]{"entity": "attribute", "value": "tujuan"} apa?
+          - [tadarusan]{"entity": "pengajian"} suruh [bawa]{"entity": "attribute", "value": "perlengkapan"} apa ya?
+          - apa saja yang harus [dibawa]{"entity": "attribute", "value": "perlengkapan"} saat [tadarusan]{"entity": "pengajian"}?
+          - siapa [imam]{"entity": "attribute", "value": "pembicara"} [pengajian]{"entity": "object_type"} [tadi]{"entity": "mention"}?
+          - siapa [ustad]{"entity": "attribute", "value": "pembicara"} [pengajian]{"entity": "object_type"} [tadi]{"entity": "mention"}?
+          - siapa [pembicara]{"entity": "attribute", "value": "pembicara"} saat pengajian [tadarusan]{"entity": "pengajian"}?
+          - siapa [ustazah]{"entity": "attribute", "value": "pembicara"} saat pengajian [tadarusan]{"entity": "pengajian"}?
+          - dimana [tempat]{"entity": "attribute", "value": "tempat"} pengajian [tadarusan]{"entity": "pengajian"}?
 
     - intent: query_solat
       examples: |
           - saya ingin bertanya tentang [solat]{"entity": "object_type"}
-          - [solat]{"entity": "object_type"} apa aja 
-          - apa saja [solat]{"entity": "object_type"} [wajib]{"entity": "jenis_solat"} yang harus dilakukan
-          - apa saja [solat]{"entity": "object_type"} [sunnah]{"entity": "jenis_solat"} yang bisa dilakukan
-          - [kapan]{"entity": "attribute", "value": "jadwal_solat"} melakukan [solat maghrib]{"entity": "solat"}
-          - [kapan]{"entity": "attribute", "value": "jadwal_solat"} melakukan solat [tersebut]{"entity": "mention"}
-          - [jam]{"entity": "attribute", "value": "waktu_solat"} berapa [solat zuhur]{"entity": "solat"}  
-          - [jam]{"entity": "attribute", "value": "waktu_solat"} berapa solat [itu]{"entity": "mention"}  
-          - [solat ashar]{"entity": "solat"} [buat]{"entity": "attribute", "value": "tujuan_solat"} apa si
-          - solat [itu]{"entity": "mention"} [buat]{"entity": "attribute", "value": "tujuan_solat"} apa si
-          - solat untuk [mendapatkan petunjuk dari allah]{"entity": "tujuan_solat"} [solat]{"entity": "object_type"} apa
-          - agar [keinginan cepat dikabulkan]{"entity": "tujuan_solat"} [solat]{"entity": "object_type"} apa
+          - mau tanya tentang [solat]{"entity": "object_type"}
+          - apa saja [solat]{"entity": "object_type"} [wajib]{"entity": "jenis"} yang harus dilakukan
+          - [solat]{"entity": "object_type"} [sunnah]{"entity": "jenis"} apa aja
+          - [kapan]{"entity": "attribute", "value": "jadwal"} melakukan [solat maghrib]{"entity": "solat"}
+          - [kapan]{"entity": "attribute", "value": "jadwal"} melakukan solat [tersebut]{"entity": "mention"}
+          - [jam]{"entity": "attribute"} berapa [solat zuhur]{"entity": "solat"}  
+          - [jam]{"entity": "attribute"} berapa solat [itu]{"entity": "mention"}
+          - [solat ashar]{"entity": "solat"} [buat]{"entity": "attribute", "value": "tujuan"} apa si
+          - solat [itu]{"entity": "mention"} [untuk]{"entity": "attribute", "value": "tujuan"} apa si
 
     - intent: query_penyakit
       examples: |
           - saya ingin bertanya seputar [penyakit]{"entity": "object_type"}
           - [penyakit]{"entity": "object_type"} apa saja yang biasa di derita oleh penghuni panti?
-          - [diabetes]{"entity": "penyakit"} [obatnya]{"entity" : "attribute", "value": "obat_penyakit"} apa
-          - [penyebabnya]{"entity" : "attribute", "value": "penyebab_penyakit"} [diabetes]{"entity": "penyakit"} apa
-          - [gejala]{"entity": "attribute", "value": "gejala_penyakit"} penyakit [diabetes]{"entity": "penyakit"} apa 
-          - [lelah]{"entity": "gejala_penyakit"} itu gejala [penyakit]{"entity" : "object_type"} apa ya
-          - [lelah]{"entity": "gejala_penyakit"} itu [obatnya]{"entity" : "attribute", "value": "obat_penyakit"} apa ya
+          - saya sedang [sakit]{"entity": "object_type", "value": "penyakit"}
+          - [diabetes]{"entity": "penyakit"} [obatnya]{"entity" : "attribute", "value": "obat"} apa
+          - [penyebabnya]{"entity" : "attribute", "value": "penyebab"} [diabetes]{"entity": "penyakit"} apa
+          - [penyebab]{"entity" : "attribute", "value": "penyebab"} penyakit [diabetes]{"entity": "penyakit"} apa
+          - [kenapa]{"entity" : "attribute", "value": "penyebab"} bisa sakit [diabetes]{"entity": "penyakit"} apa
+          - [gejala]{"entity": "attribute", "value": "gejala"} penyakit [diabetes]{"entity": "penyakit"} apa 
+          - penyakit [diabetes]{"entity": "penyakit"} [gejalanya]{"entity": "attribute", "value": "gejala"} apa
+          - [tanda]{"entity": "attribute", "value": "gejala"} penyakit [diabetes]{"entity": "penyakit"} apa
 
     - intent: query_obat
       examples: |
           - mau tanya tentang [obat obatan]{"entity": "object_type", "value": "obat"}
-          - [obat]{"entity": "object_type"} ada apa aja
-          - obat [ini]{"entity": "mention"} diminum [waktu]{"entity": "attribute", "value": "jadwal_obat"} apa saja
-          - obat [metformin]{"entity": "obat"} diminum [waktu]{"entity": "attribute", "value": "jadwal_obat"} apa saja
-          - apa saja yang [tidak boleh]{"entity": "attribute", "value": "larangan_obat"} dikonsumsi saat minum obat [itu]{"entity": "mention"}
-          - apa saja yang [tidak boleh]{"entity": "attribute", "value": "larangan_obat"} dikonsumsi saat minum obat [paracetamol]{"entity": "mention"}
-          - [obat]{"entity": "object_type"} apa yang cocok untuk penyakit [diabetes]{"entity": "penyakit"}
-          - [aturan minum]{"entity": "attribute", "value": "dosis_obat"} [nya]{"entity": "mention"} gimana
-          - [aturan minum]{"entity": "attribute", "value": "dosis_obat"} [aspirin]{"entity": "obat"} gimana
+          - [obat]{"entity": "object_type"} apa aja yang ada di panti?
+          - disini tersedia [obat]{"entity": "object_type"} apa aja?
+          - [obat]{"entity": "object_type"} apa yang cocok untuk penyakit [diabetes]{"entity": "attribute", "value": "penyakit"}
+          - [obat]{"entity": "object_type"} untuk penyakit [diabetes]{"entity": "penyakit"}
+          - obat [ini]{"entity": "mention"} diminum [waktu]{"entity": "attribute", "value": "jadwal"} apa saja
+          - obat [metformin]{"entity": "obat"} diminum [waktu]{"entity": "attribute", "value": "jadwal"} apa saja
+          - apa saja yang [tidak boleh]{"entity": "attribute", "value": "larangan"} dikonsumsi saat minum obat [itu]{"entity": "mention"}
+          - apa saja yang [tidak boleh]{"entity": "attribute", "value": "larangan"} dikonsumsi saat minum obat [paracetamol]{"entity": "obat"}
+          - [aturan minum]{"entity": "attribute", "value": "dosis"} [nya]{"entity": "mention"} gimana
+          - [aturan minum]{"entity": "attribute", "value": "dosis"} [aspirin]{"entity": "obat"} gimana
 
-    - lookup: jadwal_pengajian
+    - intent: query_lagu_kesukaan
       examples: |
-          - senin
-          - selasa
-          - rabu
-          - kamis
-          - jumat
+          - sebutkan [lagu kesukaan]{"entity": "object_type", "value": "personal"} [budi]{"entity": "nama_orang"}
+          - apa [lagu kesukaan]{"entity": "object_type", "value": "personal"} [budi]{"entity": "nama_orang"}
+          - [lagu kesukaan]{"entity": "object_type", "value": "personal"} [budi]{"entity": "nama_orang"} apa aja ya
+          - [lagu kesukaan]{"entity": "object_type", "value": "personal"} [budi]{"entity": "nama_orang"}
+
+    - intent: command_hiburan
+      examples: |
+          - mainkan lagu yang judulnya [cinta sejati]{"entity": "judul"}
+          - putar [cinta sejati]{"entity": "judul"}
+          - mainkan [cinta sejati]{"entity": "judul"}
+
+    - intent: query_kegiatan
+      examples: |
+          - [kegiatan]{"entity": "object_type"} jam [12.00]{"entity": "jam"}
+
+    - intent: query_ulang_tahun
+      examples: |
+          - [ulang tahun]{"entity": "object_type", "value": "personal"} tanggal [01-01-1990]{"entity": "tanggal_lahir"}
 
     - lookup: pengajian
       examples: |
           - tadarusan
           - tafsir alquran
           - tafsir hadist
-          - pengajian fikih
+          - fikih
           - sejarah islam
+
+    - lookup: jadwal
+      examples: |
+          - senin
+          - selasa
+          - rabu
+          - kamis
+          - jumat
+          - sabtu
+          - minggu
 
     - lookup: solat
       examples: |
@@ -140,6 +148,23 @@ nlu:
           - solat istikharah
           - solat hajat
 
+    - lookup: jam
+      examples: |
+          - 04.30
+          - 07.00
+          - 07.15
+          - 08.00
+          - 09.00
+          - 12.00
+          - 12.30
+          - 12.45
+          - 15.00
+          - 18.00
+          - 19.00
+          - 19.30
+          - 19.45
+          - 21.00
+
     - lookup: penyakit
       examples: |
           - diabetes
@@ -149,32 +174,6 @@ nlu:
           - masalah kesehatan tulang dan sendi
           - masalah kesehatan mental
           - masalah tidur
-
-    - lookup: gejala_penyakit
-      examples: |
-          - penglihatan kabur
-          - sering buang air kecil
-          - rasa haus yang berlebihan
-          - lapar yang berlebihan
-          - lelah
-          - berat badan yang menurun
-
-    - lookup: jenis_solat
-      examples: |
-          - wajib
-          - sunnah
-
-    - lookup: tujuan_solat
-      examples: |
-          - mendapatkan cahaya pada hari kiamat
-          - terapi jantung dan pencernaan
-          - pahala dua kali lipat
-          - mempercepat dikabulkan doa
-          - mendapat pahala setara dengan melaksanakan shalat malam
-          - memperlancar rezeki
-          - dikabulkan doa dan diampuni dosa
-          - mendapatkan petunjuk dari allah
-          - keinginnan cepat dikabulkan
 
     - lookup: obat
       examples: |
@@ -192,34 +191,10 @@ nlu:
           - zolpidem
           - doxepin
 
-    - lookup: waktu_kegiatan
-      examples: |
-          - 04.30
-          - 07.00
-          - 07.15
-          - 08.00
-          - 09.00
-          - 12.00
-          - 12.30
-          - 12.45
-          - 15.00
-          - 18.00
-          - 19.00
-          - 19.30
-          - 19.45
-          - 21.00
-
-    - lookup: kesukaan
+    - lookup: nama_orang
       examples: |
           - budi
           - andi
           - susi
-
-    - lookup: lagu_kesukaan
-      examples: |
-          - kau adalah segalanya
-          - cinta sejati
-          - kau yang terindah
-          - berhenti berharap
-          - perih
-          - karena ku sanggup
+          - sari
+          - siti

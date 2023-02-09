@@ -1,0 +1,53 @@
+{
+    "penyakit": [
+        {
+            "id": "0",
+            "nama": "diabetes",
+            "penyebab": "Kebanyakan disebabkan oleh resistensi insulin dan kekurangan insulin",
+            "gejala": ["penglihatan kabur", "sering buang air kecil", "rasa haus yang berlebihan", "lapar yang berlebihan", "lelah", "dan berat badan yang menurun"],
+            "obat": "metformin atau glimepiride"
+        },
+        {
+            "id": "1",
+            "nama": "tekanan darah tinggi",
+            "penyebab": "Faktor risiko seperti obesitas, kurang berolahraga, merokok, konsumsi alkohol, dll",
+            "gejala": ["Sakit kepala parah.", "Sesak napas.", "Mimisan.", "Kulit memerah (terutama pada wajah dan leher)", "Pusing.", "Nyeri dada.", "Gangguan penglihatan.", "Ada darah dalam urine."],
+            "obat": "lisinopril atau amlodipine"
+        },
+        {
+            "id": "2",
+            "nama": "kolesterol tinggi",
+            "penyebab": "Faktor risiko seperti diet tinggi lemak, obesitas, kurang berolahraga, dll",
+            "gejala": "Tidak ada gejala yang jelas, tetapi dapat menyebabkan kerusakan pada pembuluh darah jika dibiarkan",
+            "obat": "astorvastatin"
+        },
+        {
+            "id": "3",
+            "nama": "masalah kesehatan jantung",
+            "penyebab": "Faktor risiko seperti tekanan darah tinggi, kolesterol tinggi, obesitas, dll",
+            "gejala": ["Sesak napas.", "Nyeri dada.", "Detak jantung yang tidak normal."],
+            "obat": "aspirin atau clopidogrel"
+        },
+        {
+            "id": "4",
+            "nama": "masalah kesehatan tulang dan sendi",
+            "penyebab": "Faktor risiko seperti usia, obesitas, kurang berolahraga, dll",
+            "gejala": ["Nyeri dan kaku pada sendi.", "Lemah pada otot."],
+            "obat": "paracetamol atau ibuprofen"
+        },
+        {
+            "id": "5",
+            "nama": "masalah kesehatan mental",
+            "penyebab": "Faktor risiko seperti peristiwa traumatis, genetika, dll",
+            "gejala": ["Anxiety", "Depresi", "Perubahan dalam perilaku"],
+            "obat": "sertraline atau fluoxetine"
+        },
+        {
+            "id": "6",
+            "nama": "masalah tidur",
+            "penyebab": "Faktor risiko seperti stres, rutinitas tidur yang tidak teratur, dll",
+            "gejala": ["Sulit tidur yang buruk.", "Sulit tidur.", "Bangun dalam malam."],
+            "obat": "zolpidem atau eszopiclone"
+        }
+    ]
+}

@@ -4,79 +4,93 @@ stories:
     - story: query knowledge pengajian ganti topik
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_pengajian
           - action: action_query_pengajian
-          - action: action_object_type
+          - action: action_ask_again
           - intent: affirm
-          - action: utter_greet_kb
+          - action: utter_greet
 
     - story: query knowledge pengajian selesai
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_pengajian
           - action: action_query_pengajian
-          - action: action_object_type
+          - action: action_ask_again
           - intent: deny
           - action: utter_goodbye
 
     - story: query knowledge solat ganti topik
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_solat
           - action: action_query_solat
-          - action: action_object_type
+          - action: action_ask_again
           - intent: affirm
-          - action: utter_greet_kb
+          - action: utter_greet
 
     - story: query knowledge solat selesai
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_solat
           - action: action_query_solat
-          - action: action_object_type
+          - action: action_ask_again
           - intent: deny
           - action: utter_goodbye
 
     - story: query knowledge penyakit ganti topik
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_penyakit
           - action: action_query_penyakit
-          - action: action_object_type
+          - action: action_ask_again
           - intent: affirm
-          - action: utter_greet_kb
+          - action: utter_greet
 
     - story: query knowledge penyakit selesai
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_penyakit
           - action: action_query_penyakit
-          - action: action_object_type
+          - action: action_ask_again
           - intent: deny
           - action: utter_goodbye
 
     - story: query knowledge obat ganti topik
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_obat
           - action: action_query_obat
-          - action: action_object_type
+          - action: action_ask_again
           - intent: affirm
-          - action: utter_greet_kb
+          - action: utter_greet
 
     - story: query knowledge obat selesai
       steps:
           - intent: greet
-          - action: utter_greet_kb
+          - action: utter_greet
           - intent: query_obat
           - action: action_query_obat
-          - action: action_object_type
+          - action: action_ask_again
           - intent: deny
           - action: utter_goodbye
+
+    - story: query knowledge lagu kesukaan selesai
+      steps:
+          - intent: greet
+          - action: utter_greet
+          - intent: query_lagu_kesukaan
+          - action: action_query_lagu_kesukaan
+
+    - story: query knowledge hiburan
+      steps:
+          - intent: greet
+          - action: utter_greet
+          - intent: command_hiburan
+          - action: utter_hiburan

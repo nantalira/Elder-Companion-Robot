@@ -1,0 +1,54 @@
+{
+    "pengajian": [
+        {
+            "id": "0",
+            "nama": "tadarusan",
+            "tujuan": "Khataman Al-Quran",
+            "jadwal": "senin",
+            "materi": "Membaca beberapa ayat Al-Quran",
+            "perlengkapan": "Mukena dan Al-Quran",
+            "tempat": "Masjid",
+            "pembicara": "Ustadzah"
+        },
+        {
+            "id": "1",
+            "nama": "tafsir alquran",
+            "tujuan": "Belajar arti dan makna dari Al-Quran",
+            "jadwal": "selasa",
+            "materi": "Membaca dan menafsirkan beberapa ayat Al-Quran",
+            "perlengkapan": "Mukena dan Al-Quran terjemahan",
+            "tempat": "Masjid",
+            "pembicara": "Ustadzah"
+        },
+        {
+            "id": "2",
+            "nama": "tafsir hadist",
+            "tujuan": "Belajar hadist Nabi Muhammad SAW, termasuk keutamaan dan kewajiban yang terkandung di dalamnya",
+            "jadwal": "rabu",
+            "materi": "Membaca dan menafsirkan beberapa Hadist Nabi Muhammad SAW",
+            "perlengkapan": "Mukena dan buku hadist",
+            "tempat": "Masjid",
+            "pembicara": "Ustadzah"
+        },
+        {
+            "id": "3",
+            "nama": "fikih",
+            "tujuan": "Belajar hukum-hukum Islam",
+            "jadwal": "kamis",
+            "materi": "Dasar-dasar, Bab, Masalah, dan Pendapat dalam Fikih",
+            "perlengkapan": "Mukena dan buku Fikih",
+            "tempat": "Masjid",
+            "pembicara": "Ustadzah"
+        },
+        {
+            "id": "4",
+            "nama": "sejarah islam",
+            "tujuan": "Mempelajari tentang Sejarah Islam",
+            "jadwal": "jumat",
+            "materi": "Sejarah Islam dari masa Nabi Muhammad SAW sampai masa kini",
+            "perlengkapan": "Mukena",
+            "tempat": "Masjid",
+            "pembicara": "Ustadzah"
+        }
+    ]
+}

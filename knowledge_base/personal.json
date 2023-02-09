@@ -1,0 +1,34 @@
+{
+    "personal": [
+        {
+            "id": "0",
+            "nama_orang": "budi",
+            "tanggal_lahir": "01-01-1990",
+            "lagu_favorit": ["kau adalah segalanya", "berhenti berharap"]
+        },
+        {
+            "id": "1",
+            "nama_orang": "andi",
+            "tanggal_lahir": "02-02-1992",
+            "lagu_favorit": ["perih", "cinta itu buta"]
+        },
+        {
+            "id": "2",
+            "nama_orang": "susi",
+            "tanggal_lahir": "03-03-1993",
+            "lagu_favorit": ["cinta itu buta", "berhenti berharap"]
+        },
+        {
+            "id": "3",
+            "nama_orang": "sari",
+            "tanggal_lahir": "04-04-1994",
+            "lagu_favorit": ["perih", "kau adalah segalanya"]
+        },
+        {
+            "id": "4",
+            "nama_orang": "siti",
+            "tanggal_lahir": "05-05-1995",
+            "lagu_favorit": ["cinta itu buta", "berhenti berharap"]
+        }
+    ]
+}

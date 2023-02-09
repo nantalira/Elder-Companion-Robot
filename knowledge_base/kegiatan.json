@@ -1,0 +1,74 @@
+{
+    "kegiatan": [
+        {
+            "id": "0",
+            "nama": "Solat Subuh",
+            "jam": "04.30"
+        },
+        {
+            "id": "1",
+            "nama": "Sarapan",
+            "jam": "07.00"
+        },
+        {
+            "id": "2",
+            "nama": "Minum Obat",
+            "jam": "07.15"
+        },
+        {
+            "id": "3",
+            "nama": "Pengajian",
+            "jam": "08.00"
+        },
+        {
+            "id": "4",
+            "nama": "Senam",
+            "jam": "09.00"
+        },
+        {
+            "id": "5",
+            "nama": "Solat Zuhur",
+            "jam": "12.00"
+        },
+        {
+            "id": "6",
+            "nama": "Makan Siang",
+            "jam": "12.30"
+        },
+        {
+            "id": "7",
+            "nama": "Minum Obat",
+            "jam": "12.45"
+        },
+        {
+            "id": "8",
+            "nama": "Solat Ashar",
+            "jam": "15.00"
+        },
+        {
+            "id": "9",
+            "nama": "Solat Maghrib",
+            "jam": "18.00"
+        },
+        {
+            "id": "10",
+            "nama": "Solat Isya",
+            "jam": "19.00"
+        },
+        {
+            "id": "11",
+            "nama": "Makan Malam",
+            "jam": "19.30"
+        },
+        {
+            "id": "12",
+            "nama": "Minum Obat",
+            "jam": "19.45"
+        },
+        {
+            "id": "13",
+            "nama": "Tidur",
+            "jam": "21.00"
+        }
+    ]
+}

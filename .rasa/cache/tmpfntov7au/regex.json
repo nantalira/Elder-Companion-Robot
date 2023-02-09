@@ -1,0 +1,18 @@
+[
+  {
+    "name": "pengajian",
+    "pattern": "(\\btadarusan\\b|\\btafsir\\ alquran\\b|\\btafsir\\ hadist\\b|\\bfikih\\b|\\bsejarah\\ islam\\b)"
+  },
+  {
+    "name": "jadwal",
+    "pattern": "(\\bsenin\\b|\\bselasa\\b|\\brabu\\b|\\bkamis\\b|\\bjumat\\b|\\bsabtu\\b|\\bminggu\\b)"
+  },
+  {
+    "name": "solat",
+    "pattern": "(\\bsolat\\ subuh\\b|\\bsolat\\ zuhur\\b|\\bsolat\\ ashar\\b|\\bsolat\\ maghrib\\b|\\bsolat\\ isya\\b|\\bsolat\\ dhuha\\b|\\bsolat\\ tahajud\\b|\\bsolat\\ istikharah\\b|\\bsolat\\ hajat\\b)"
+  },
+  {
+    "name": "penyakit",
+    "pattern": "(\\bdiabetes\\b|\\btekanan\\ darah\\ tinggi\\b|\\bkolesterol\\ tinggi\\b|\\bmasalah\\ kesehatan\\ jantung\\b|\\bmasalah\\ kesehatan\\ tulang\\ dan\\ sendi\\b|\\bmasalah\\ kesehatan\\ mental\\b|\\bmasalah\\ tidur\\b)"
+  }
+]
