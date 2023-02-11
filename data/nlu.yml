@@ -106,9 +106,9 @@ nlu:
 
     - intent: command_hiburan
       examples: |
-          - mainkan lagu yang judulnya [cinta sejati]{"entity": "judul"}
-          - putar [cinta sejati]{"entity": "judul"}
-          - mainkan [cinta sejati]{"entity": "judul"}
+          - mainkan musik 
+          - mainkan lagu
+          - mainkan ceramah
 
     - intent: query_kegiatan
       examples: |

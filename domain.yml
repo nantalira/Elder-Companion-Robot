@@ -25,7 +25,7 @@ entities:
     - penyakit
     - obat
     - nama_orang
-    - judul
+    - video_title
     - tanggal_lahir
     - jam
 
@@ -120,12 +120,12 @@ slots:
             - type: from_entity
               entity: nama_orang
 
-    judul:
+    video_title:
         type: text
         influence_conversation: false
         mappings:
             - type: from_entity
-              entity: judul
+              entity: video_title
 
     tanggal_lahir:
         type: text
@@ -150,6 +150,7 @@ actions:
     - action_query_lagu_kesukaan
     - action_query_kegiatan
     - action_query_ulang_tahun
+    - action_query_hiburan
 
 responses:
     utter_greet:
@@ -161,9 +162,6 @@ responses:
     utter_ask_rephrase:
         - text: "Maaf, saya tidak mengerti maksud anda."
         - text: "Bisakah anda mengulanginya?"
-
-    utter_hiburan:
-        - text: "Memainkan {judul}"
 
     utter_ulang_tahun:
         - text: "Mainkan lagu ulang tahun"

@@ -93,4 +93,4 @@ stories:
           - intent: greet
           - action: utter_greet
           - intent: command_hiburan
-          - action: utter_hiburan
+          - action: action_query_hiburan
