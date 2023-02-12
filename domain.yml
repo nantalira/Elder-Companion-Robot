@@ -11,6 +11,7 @@ intents:
     - query_obat
     - query_lagu_kesukaan
     - command_hiburan
+    - command_stop
     - query_kegiatan
     - query_ulang_tahun
 
@@ -151,10 +152,12 @@ actions:
     - action_query_kegiatan
     - action_query_ulang_tahun
     - action_query_hiburan
+    - action_query_stop
+    - action_query_lagu_ulang_tahun
 
 responses:
     utter_greet:
-        - text: "Halo saya sekar. Saya menyediakan informasi mengenai pengajian, solat, penyakit, obat, obat yang harus anda konsumsi, dan lagu kesukaan anda. Selain itu, saya dapat memainkan beberapa hiburan dalam bentuk suara seperti lagu, ceramah, ataupun cerita. Apa yang ingin anda ketahui?"
+        - text: "Halo saya sekar. Saya menyediakan informasi mengenai pengajian, solat, penyakit, obat, dan lagu kesukaan anda. Selain itu, saya dapat memainkan beberapa hiburan dalam bentuk suara seperti lagu, ceramah, ataupun cerita. Apa yang ingin anda ketahui?"
 
     utter_goodbye:
         - text: "Terimakasih sudah menggunakan layanan kami. Sampai jumpa!"
@@ -162,9 +165,6 @@ responses:
     utter_ask_rephrase:
         - text: "Maaf, saya tidak mengerti maksud anda."
         - text: "Bisakah anda mengulanginya?"
-
-    utter_ulang_tahun:
-        - text: "Mainkan lagu ulang tahun"
 
 session_config:
     session_expiration_time: 60

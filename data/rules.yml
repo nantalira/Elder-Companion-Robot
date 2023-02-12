@@ -20,4 +20,9 @@ rules:
       steps:
           - intent: query_ulang_tahun
           - action: action_query_ulang_tahun
-          - action: utter_ulang_tahun
+          - action: action_query_lagu_ulang_tahun
+
+    - rule: Ulang Tahun
+      steps:
+          - intent: command_stop
+          - action: action_query_stop

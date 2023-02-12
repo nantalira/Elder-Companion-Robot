@@ -110,6 +110,13 @@ nlu:
           - mainkan lagu
           - mainkan ceramah
 
+    - intent: command_stop
+      examples: |
+          - matikan musik
+          - stop memainkan musik 
+          - matikan musik
+          - matikan ceramah
+
     - intent: query_kegiatan
       examples: |
           - [kegiatan]{"entity": "object_type"} jam [12.00]{"entity": "jam"}

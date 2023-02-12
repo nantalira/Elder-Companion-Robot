@@ -381,7 +381,42 @@ class ActionOpenYoutube(Action):
         penataan = hasil_akhir["videos"][n]["url_suffix"]
         webbrowser.open("https://www.youtube.com/" + penataan, new=2, autoraise=True)
         dispatcher.utter_message(text=f"Oke, saya akan putar {sentence} untuk anda")
-        t = threading.Timer(60.0, self.close_browser)
+        t = threading.Timer(300.0, self.close_browser)
+        t.start()
+        return []
+
+    def close_browser(self):
+        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
+
+class ActionStopYoutube(Action):
+    def name(self):
+        return "action_query_stop"
+
+    def run(self, dispatcher, tracker, domain):
+        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True) 
+        dispatcher.utter_message(text=f"Oke, saya akan saya mematikannya")
+        return []
+
+class ActionLaguUlangtahun(Action): 
+    def name(self):
+        return "action_query_lagu_ulang_tahun"
+
+    def run(self, dispatcher, tracker, domain):
+        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True) 
+        text = "mainkan lagu ulang tahun"
+        custom_stop_word_list = ["mainkan", "putarkan", "tentang", "video", "seputar"]
+        tokens = word_tokenize(text) 
+        sentence_without_stopword = [k for k in tokens if not k in custom_stop_word_list ] 
+        result = sentence_without_stopword
+        sentence = nltk.tokenize.treebank.TreebankWordDetokenizer().detokenize(result)
+        results = YoutubeSearch(sentence, max_results=5).to_json()
+        hasil_akhir = json.loads(results)
+        mylist=[0,1,2,3,4] 
+        n=random.choice(mylist) 
+        penataan = hasil_akhir["videos"][n]["url_suffix"]
+        webbrowser.open("https://www.youtube.com/" + penataan, new=2, autoraise=True)
+        dispatcher.utter_message(text=f"Oke, saya akan putar {sentence} untuk anda")
+        t = threading.Timer(180.0, self.close_browser)
         t.start()
         return []
 
