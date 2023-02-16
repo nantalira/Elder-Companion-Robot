@@ -23,3 +23,7 @@
 - terminal 1 run 'bot_speech.py'
 - terminal 2 run 'rasa run actions'
 - terminal 3 run 'rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml'
+
+## DOKUMENTASI 
+
+- https://drive.google.com/drive/folders/1L3cDgHGiyxP_GpPCTKIYgpFclBDEPYd5?usp=sharing
