@@ -1,0 +1,3 @@
+nltk==3.8.1
+youtube_search==2.1.2
+pywhatkit==5.4
