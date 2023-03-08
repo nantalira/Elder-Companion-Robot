@@ -1,3 +1,5 @@
+# Knowledge Base trained with RASA Platform
+
 ## INTERACTIVE
 
 - pengajian
@@ -26,7 +28,7 @@
 
 ## DOKUMENTASI
 
-- https://drive.google.com/drive/folders/1L3cDgHGiyxP_GpPCTKIYgpFclBDEPYd5?usp=sharing
+- <https://drive.google.com/drive/folders/1L3cDgHGiyxP_GpPCTKIYgpFclBDEPYd5?usp=sharing>
 
 ### CATATAN INSTALASI
 
@@ -43,7 +45,7 @@
 - masih di dalam python environment, jalankan `import nltk`, kemudian jalankan `nltk.download("punkt")`
 - jika sudah selesai, keluar dari python environment dengan menjalankan `exit()`
 
-##### contoh menjalankan python environment pada linux:
+#### contoh menjalankan python environment pada linux
 
 ```bash
 heydarlaptop@LENOVO-HEYDAR:~/Documents/knowledge-base-robot-lansia$ python3
