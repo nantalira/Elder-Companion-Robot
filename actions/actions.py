@@ -4,7 +4,7 @@ import json
 from youtube_search import YoutubeSearch
 from nltk.corpus import stopwords
 import nltk
-from nltk.tokenize import word_tokenize 
+from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 import random
 import subprocess
@@ -32,7 +32,7 @@ class ActionPengajian(ActionQueryKnowledgeBase):
             "pengajian", lambda obj: obj["nama"]
         )
         super().__init__(knowledge_base)
- 
+
     def utter_attribute_value(
         self,
         dispatcher: CollectingDispatcher,
@@ -48,7 +48,7 @@ class ActionPengajian(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Mohon maaf, saya tidak tahu tentang {attribute_name} pada {object_name}."
             )
-    
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -57,23 +57,26 @@ class ActionPengajian(ActionQueryKnowledgeBase):
     ):
         if objects:
             repr_function = await utils.call_potential_coroutine(
-                self.knowledge_base.get_representation_function_of_object(object_type)
+                self.knowledge_base.get_representation_function_of_object(
+                    object_type)
             )
 
             if len(objects) == 1:
                 for i, obj in enumerate(objects, 1):
-                    dispatcher.utter_message(text=f"{object_type} {repr_function(obj)}")
+                    dispatcher.utter_message(
+                        text=f"{object_type} {repr_function(obj)}")
             else:
                 dispatcher.utter_message(
                     text=f"Disini ada beberapa {object_type} seperti :",
                 )
                 for i, obj in enumerate(objects, 1):
                     dispatcher.utter_message(text=f"{i}: {repr_function(obj)}")
-            
+
         else:
             dispatcher.utter_message(
                 text=f"Maaf, saya kurang paham mengenai informasi {object_type} tersebut."
             )
+
 
 class ActionSolat(ActionQueryKnowledgeBase):
     def name(self) -> Text:
@@ -86,7 +89,7 @@ class ActionSolat(ActionQueryKnowledgeBase):
             "solat", lambda obj: obj["nama"]
         )
         super().__init__(knowledge_base)
- 
+
     def utter_attribute_value(
         self,
         dispatcher: CollectingDispatcher,
@@ -102,7 +105,7 @@ class ActionSolat(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Mohon maaf, saya tidak tahu tentang {attribute_name} pada {object_name}."
             )
-    
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -111,12 +114,14 @@ class ActionSolat(ActionQueryKnowledgeBase):
     ):
         if objects:
             repr_function = await utils.call_potential_coroutine(
-                self.knowledge_base.get_representation_function_of_object(object_type)
+                self.knowledge_base.get_representation_function_of_object(
+                    object_type)
             )
 
             if len(objects) == 1:
                 for i, obj in enumerate(objects, 1):
-                    dispatcher.utter_message(text=f"{object_type} {repr_function(obj)}")
+                    dispatcher.utter_message(
+                        text=f"{object_type} {repr_function(obj)}")
             else:
                 dispatcher.utter_message(
                     text=f"Ada beberapa {object_type} yang saya tahu seperti :",
@@ -127,6 +132,7 @@ class ActionSolat(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Maaf, saya kurang paham mengenai informasi {object_type} tersebut."
             )
+
 
 class ActionPenyakit(ActionQueryKnowledgeBase):
     def name(self) -> Text:
@@ -139,7 +145,7 @@ class ActionPenyakit(ActionQueryKnowledgeBase):
             "penyakit", lambda obj: obj["nama"]
         )
         super().__init__(knowledge_base)
- 
+
     def utter_attribute_value(
         self,
         dispatcher: CollectingDispatcher,
@@ -163,7 +169,7 @@ class ActionPenyakit(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Mohon maaf, saya tidak tahu tentang {attribute_name} pada {object_name}."
             )
-    
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -172,23 +178,26 @@ class ActionPenyakit(ActionQueryKnowledgeBase):
     ):
         if objects:
             repr_function = await utils.call_potential_coroutine(
-                self.knowledge_base.get_representation_function_of_object(object_type)
+                self.knowledge_base.get_representation_function_of_object(
+                    object_type)
             )
 
             if len(objects) == 1:
                 for i, obj in enumerate(objects, 1):
-                    dispatcher.utter_message(text=f"{object_type} {repr_function(obj)}")
+                    dispatcher.utter_message(
+                        text=f"{object_type} {repr_function(obj)}")
             else:
                 dispatcher.utter_message(
                     text=f"Saya mengetahui tentang beberapa {object_type} seperti :",
                 )
                 for i, obj in enumerate(objects, 1):
                     dispatcher.utter_message(text=f"{i}: {repr_function(obj)}")
-            
+
         else:
             dispatcher.utter_message(
                 text=f"Maaf, saya kurang paham mengenai informasi {object_type} tersebut."
             )
+
 
 class ActionObat(ActionQueryKnowledgeBase):
     def name(self) -> Text:
@@ -201,7 +210,7 @@ class ActionObat(ActionQueryKnowledgeBase):
             "obat", lambda obj: obj["nama"]
         )
         super().__init__(knowledge_base)
- 
+
     def utter_attribute_value(
         self,
         dispatcher: CollectingDispatcher,
@@ -217,7 +226,7 @@ class ActionObat(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Mohon maaf, saya tidak tahu tentang {attribute_name} pada {object_name}."
             )
-    
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -226,12 +235,14 @@ class ActionObat(ActionQueryKnowledgeBase):
     ):
         if objects:
             repr_function = await utils.call_potential_coroutine(
-                self.knowledge_base.get_representation_function_of_object(object_type)
+                self.knowledge_base.get_representation_function_of_object(
+                    object_type)
             )
 
             if len(objects) == 1:
                 for i, obj in enumerate(objects, 1):
-                    dispatcher.utter_message(text=f"{object_type} {repr_function(obj)}")
+                    dispatcher.utter_message(
+                        text=f"{object_type} {repr_function(obj)}")
             else:
                 dispatcher.utter_message(
                     text=f"Ada beberapa {object_type} yang saya tahu seperti :",
@@ -242,6 +253,7 @@ class ActionObat(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Maaf, saya kurang paham mengenai informasi {object_type} tersebut."
             )
+
 
 class ActionKegiatan(ActionQueryKnowledgeBase):
     def name(self) -> Text:
@@ -254,7 +266,7 @@ class ActionKegiatan(ActionQueryKnowledgeBase):
             "kegiatan", lambda obj: obj["nama"]
         )
         super().__init__(knowledge_base)
- 
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -265,9 +277,10 @@ class ActionKegiatan(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Sekarang Saatnya :",
             )
-        
+
             repr_function = await utils.call_potential_coroutine(
-                self.knowledge_base.get_representation_function_of_object(object_type)
+                self.knowledge_base.get_representation_function_of_object(
+                    object_type)
             )
             for i, obj in enumerate(objects, 1):
                 dispatcher.utter_message(text=f"{repr_function(obj)}")
@@ -275,6 +288,7 @@ class ActionKegiatan(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Tidak ada {object_type}."
             )
+
 
 class ActionUlangTahun(ActionQueryKnowledgeBase):
     def name(self) -> Text:
@@ -287,7 +301,7 @@ class ActionUlangTahun(ActionQueryKnowledgeBase):
             "personal", lambda obj: obj["nama_orang"]
         )
         super().__init__(knowledge_base)
- 
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -299,9 +313,10 @@ class ActionUlangTahun(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"selamat ulang tahun untuk:",
             )
-        
+
             repr_function = await utils.call_potential_coroutine(
-                self.knowledge_base.get_representation_function_of_object(object_type)
+                self.knowledge_base.get_representation_function_of_object(
+                    object_type)
             )
             for i, obj in enumerate(objects, 1):
                 dispatcher.utter_message(text=f"{repr_function(obj)}")
@@ -314,6 +329,7 @@ class ActionUlangTahun(ActionQueryKnowledgeBase):
                 text=f"Tidak ada yang '{object_type}'."
             )
 
+
 class ActionLaguKesukaan(ActionQueryKnowledgeBase):
     def name(self) -> Text:
         return "action_query_lagu_kesukaan"
@@ -325,7 +341,7 @@ class ActionLaguKesukaan(ActionQueryKnowledgeBase):
             "personal", lambda obj: obj["nama_orang"]
         )
         super().__init__(knowledge_base)
-    
+
     async def utter_objects(
         self,
         dispatcher: CollectingDispatcher,
@@ -345,6 +361,7 @@ class ActionLaguKesukaan(ActionQueryKnowledgeBase):
                 text=f"Maaf saya tidak tahu {object_type} anda."
             )
 
+
 class ActionAskAgain(Action):
 
     def name(self) -> Text:
@@ -356,9 +373,11 @@ class ActionAskAgain(Action):
 
         object_type = tracker.get_slot("object_type")
         if not object_type:
-            dispatcher.utter_message(text=f"Maaf, saya tidak mengerti tentang {object_type}.")
+            dispatcher.utter_message(
+                text=f"Maaf, saya tidak mengerti tentang {object_type}.")
         else:
-            dispatcher.utter_message(text=f"Langsung tanyakan saja jika ada pertanyaan tentang {object_type} lagi, atau ingin menanyakan tentang hal lain?")
+            dispatcher.utter_message(
+                text=f"Langsung tanyakan saja jika ada pertanyaan tentang {object_type} lagi, atau ingin menanyakan tentang hal lain?")
         return []
 
 
@@ -367,20 +386,30 @@ class ActionOpenYoutube(Action):
         return "action_query_hiburan"
 
     def run(self, dispatcher, tracker, domain):
-        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True) 
+        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
         text = tracker.latest_message['text']
-        custom_stop_word_list = ["mainkan", "putarkan", "tentang", "video", "lagu", "seputar"]
-        tokens = word_tokenize(text) 
-        sentence_without_stopword = [k for k in tokens if not k in custom_stop_word_list ] 
+        custom_stop_word_list = [
+            "mainkan",
+            "putarkan",
+            "tentang",
+            "video",
+            "lagu",
+            "seputar"
+        ]
+        tokens = word_tokenize(text)
+        sentence_without_stopword = [
+            k for k in tokens if not k in custom_stop_word_list]
         result = sentence_without_stopword
         sentence = nltk.tokenize.treebank.TreebankWordDetokenizer().detokenize(result)
         results = YoutubeSearch(sentence, max_results=5).to_json()
         hasil_akhir = json.loads(results)
-        mylist=[0,1,2,3,4] 
-        n=random.choice(mylist) 
+        mylist = [0, 1, 2, 3, 4]
+        n = random.choice(mylist)
         penataan = hasil_akhir["videos"][n]["url_suffix"]
-        webbrowser.open("https://www.youtube.com/" + penataan, new=2, autoraise=True)
-        dispatcher.utter_message(text=f"Oke, saya akan putar {sentence} untuk anda")
+        webbrowser.open("https://www.youtube.com/" +
+                        penataan, new=2, autoraise=True)
+        dispatcher.utter_message(
+            text=f"Oke, saya akan putar {sentence} untuk anda")
         t = threading.Timer(300.0, self.close_browser)
         t.start()
         return []
@@ -388,34 +417,45 @@ class ActionOpenYoutube(Action):
     def close_browser(self):
         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
 
+
 class ActionStopYoutube(Action):
     def name(self):
         return "action_query_stop"
 
     def run(self, dispatcher, tracker, domain):
-        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True) 
+        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
         dispatcher.utter_message(text=f"Oke, saya akan saya mematikannya")
         return []
 
-class ActionLaguUlangtahun(Action): 
+
+class ActionLaguUlangtahun(Action):
     def name(self):
         return "action_query_lagu_ulang_tahun"
 
     def run(self, dispatcher, tracker, domain):
-        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True) 
+        subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
         text = "mainkan lagu ulang tahun"
-        custom_stop_word_list = ["mainkan", "putarkan", "tentang", "video", "seputar"]
-        tokens = word_tokenize(text) 
-        sentence_without_stopword = [k for k in tokens if not k in custom_stop_word_list ] 
+        custom_stop_word_list = [
+            "mainkan",
+            "putarkan",
+            "tentang",
+            "video",
+            "seputar"
+        ]
+        tokens = word_tokenize(text)
+        sentence_without_stopword = [
+            k for k in tokens if not k in custom_stop_word_list]
         result = sentence_without_stopword
         sentence = nltk.tokenize.treebank.TreebankWordDetokenizer().detokenize(result)
         results = YoutubeSearch(sentence, max_results=5).to_json()
         hasil_akhir = json.loads(results)
-        mylist=[0,1,2,3,4] 
-        n=random.choice(mylist) 
+        mylist = [0, 1, 2, 3, 4]
+        n = random.choice(mylist)
         penataan = hasil_akhir["videos"][n]["url_suffix"]
-        webbrowser.open("https://www.youtube.com/" + penataan, new=2, autoraise=True)
-        dispatcher.utter_message(text=f"Oke, saya akan putar {sentence} untuk anda")
+        webbrowser.open("https://www.youtube.com/" +
+                        penataan, new=2, autoraise=True)
+        dispatcher.utter_message(
+            text=f"Oke, saya akan putar {sentence} untuk anda")
         t = threading.Timer(180.0, self.close_browser)
         t.start()
         return []
