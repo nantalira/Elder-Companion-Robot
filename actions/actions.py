@@ -386,7 +386,7 @@ class ActionOpenYoutube(Action):
         return "action_query_hiburan"
 
     def run(self, dispatcher, tracker, domain):
-#         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
+        #         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
         text = tracker.latest_message['text']
         custom_stop_word_list = [
             "mainkan",
@@ -406,8 +406,10 @@ class ActionOpenYoutube(Action):
         mylist = [0, 1, 2, 3, 4]
         n = random.choice(mylist)
         penataan = hasil_akhir["videos"][n]["url_suffix"]
-        dispatcher.utter_message("https://www.youtube.com/" +
-                        penataan)
+        dispatcher.utter_message(
+            "https://www.youtube.com/" +
+            penataan
+        )
 #         dispatcher.utter_message(
 #             text=f"Oke, saya akan putar {sentence} untuk anda")
 #         t = threading.Timer(300.0, self.close_browser)
@@ -433,7 +435,7 @@ class ActionLaguUlangtahun(Action):
         return "action_query_lagu_ulang_tahun"
 
     def run(self, dispatcher, tracker, domain):
-#         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
+        #         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
         text = "mainkan lagu ulang tahun"
         custom_stop_word_list = [
             "mainkan",
@@ -453,7 +455,7 @@ class ActionLaguUlangtahun(Action):
         n = random.choice(mylist)
         penataan = hasil_akhir["videos"][n]["url_suffix"]
         dispatcher.utter_message("https://www.youtube.com/" +
-                        penataan)
+                                 penataan)
         return []
 
 #     def close_browser(self):

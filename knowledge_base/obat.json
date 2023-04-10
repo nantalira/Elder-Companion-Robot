@@ -1,108 +1,108 @@
 {
-    "obat": [
-        {
-            "id": "0",
-            "nama": "metformin",
-            "larangan": "Larangan minum bersama dengan obat golongan biguanide lainnya",
-            "dosis": "1 kali sehari, 500mg",
-            "jadwal": "Minum setelah makan",
-            "penyakit": "diabetes"
-        },
-        {
-            "id": "1",
-            "nama": "glimepiride",
-            "larangan": "Larangan minum bersama dengan obat golongan sulfonilurea lainnya",
-            "dosis": "1 kali sehari, 2mg",
-            "jadwal": "Minum sebelum makan",
-            "penyakit": "diabetes"
-        },
-        {
-            "id": "2",
-            "nama": "lisinopril",
-            "larangan": "Larangan minum bersama dengan obat golongan ACE inhibitor lainnya",
-            "dosis": "1 kali sehari, 10mg",
-            "jadwal": "Minum setelah makan",
-            "penyakit": "Tekanan Darah Tinggi"
-        },
-        {
-            "id": "3",
-            "nama": "amlodipine",
-            "larangan": "Larangan minum bersama dengan obat golongan calcium channel blocker lainnya",
-            "dosis": "1 kali sehari, 5mg",
-            "jadwal": "Minum sebelum tidur",
-            "penyakit": "Tekanan Darah Tinggi"
-        },
-        {
-            "id": "4",
-            "nama": "atorvastatin",
-            "larangan": "Larangan minum bersama dengan obat golongan statin lainnya",
-            "dosis": "1 kali sehari, 20mg",
-            "jadwal": "Minum sebelum makan",
-            "penyakit": "Kolesterol Tinggi"
-        },
-        {
-            "id": "5",
-            "nama": "aspirin",
-            "larangan": "Larangan minum bersama dengan obat golongan antikoagulan lainnya",
-            "dosis": "1 kali sehari, 81mg",
-            "jadwal": "Minum setelah makan",
-            "penyakit": "Masalah Kesehatan Jantung"
-        },
-        {
-            "id": "6",
-            "nama": "clopidogrel",
-            "larangan": "Larangan minum bersama dengan obat golongan antiplatelet lainnya",
-            "dosis": "1 kali sehari, 75mg",
-            "jadwal": "Minum sebelum tidur",
-            "penyakit": "Masalah Kesehatan Jantung"
-        },
-        {
-            "id": "7",
-            "nama": "paracetamol",
-            "larangan": "Larangan minum bersama dengan obat golongan analgesik lainnya",
-            "dosis": "3 kali sehari, 500mg",
-            "jadwal": "Minum setelah makan",
-            "penyakit": "Masalah Kesehatan Tulang dan Sendi"
-        },
-        {
-            "id": "8",
-            "nama": "ibuprofen",
-            "larangan": "Larangan minum bersama dengan obat golongan NSAID lainnya",
-            "dosis": "3 kali sehari, 400mg",
-            "jadwal": "Minum sebelum tidur",
-            "penyakit": "Masalah Kesehatan Tulang dan Sendi"
-        },
-        {
-            "id": "9",
-            "nama": "sertraline",
-            "larangan": "Larangan minum bersama dengan obat golongan SSRI lainnya",
-            "dosis": "1 kali sehari, 50mg",
-            "jadwal": "Minum sebelum tidur",
-            "penyakit": "Masalah Kesehatan Mental"
-        },
-        {
-            "id": "10",
-            "nama": "olanzapine",
-            "larangan": "Larangan minum bersama dengan obat golongan antipsychotic lainnya",
-            "dosis": "1 kali sehari, 10mg",
-            "jadwal": "Minum setelah makan",
-            "penyakit": "Masalah Kesehatan Mental"
-        },
-        {
-            "id": "11",
-            "nama": "zolpidem",
-            "larangan": "Larangan minum bersama dengan obat golongan sedatif hipnotik lainnya",
-            "dosis": "1 kali sehari, 10mg",
-            "jadwal": "Minum sebelum tidur",
-            "penyakit": "Masalah Tidur"
-        },
-        {
-            "id": "12",
-            "nama": "doxepin",
-            "larangan": "Larangan minum bersama dengan obat golongan tricyclic antidepressants lainnya",
-            "dosis": "1 kali sehari, 75mg",
-            "jadwal": "Minum sebelum tidur",
-            "penyakit": "Masalah Tidur"
-        }
-    ]
+	"obat": [
+		{
+			"id": "0",
+			"nama": "metformin",
+			"larangan": "Larangan minum bersama dengan obat golongan biguanide lainnya",
+			"dosis": "1 kali sehari, 500mg",
+			"jadwal": "Minum setelah makan",
+			"penyakit": "diabetes"
+		},
+		{
+			"id": "1",
+			"nama": "glimepiride",
+			"larangan": "Larangan minum bersama dengan obat golongan sulfonilurea lainnya",
+			"dosis": "1 kali sehari, 2mg",
+			"jadwal": "Minum sebelum makan",
+			"penyakit": "diabetes"
+		},
+		{
+			"id": "2",
+			"nama": "lisinopril",
+			"larangan": "Larangan minum bersama dengan obat golongan ACE inhibitor lainnya",
+			"dosis": "1 kali sehari, 10mg",
+			"jadwal": "Minum setelah makan",
+			"penyakit": "Tekanan Darah Tinggi"
+		},
+		{
+			"id": "3",
+			"nama": "amlodipine",
+			"larangan": "Larangan minum bersama dengan obat golongan calcium channel blocker lainnya",
+			"dosis": "1 kali sehari, 5mg",
+			"jadwal": "Minum sebelum tidur",
+			"penyakit": "Tekanan Darah Tinggi"
+		},
+		{
+			"id": "4",
+			"nama": "atorvastatin",
+			"larangan": "Larangan minum bersama dengan obat golongan statin lainnya",
+			"dosis": "1 kali sehari, 20mg",
+			"jadwal": "Minum sebelum makan",
+			"penyakit": "Kolesterol Tinggi"
+		},
+		{
+			"id": "5",
+			"nama": "aspirin",
+			"larangan": "Larangan minum bersama dengan obat golongan antikoagulan lainnya",
+			"dosis": "1 kali sehari, 81mg",
+			"jadwal": "Minum setelah makan",
+			"penyakit": "Masalah Kesehatan Jantung"
+		},
+		{
+			"id": "6",
+			"nama": "clopidogrel",
+			"larangan": "Larangan minum bersama dengan obat golongan antiplatelet lainnya",
+			"dosis": "1 kali sehari, 75mg",
+			"jadwal": "Minum sebelum tidur",
+			"penyakit": "Masalah Kesehatan Jantung"
+		},
+		{
+			"id": "7",
+			"nama": "paracetamol",
+			"larangan": "Larangan minum bersama dengan obat golongan analgesik lainnya",
+			"dosis": "3 kali sehari, 500mg",
+			"jadwal": "Minum setelah makan",
+			"penyakit": "Masalah Kesehatan Tulang dan Sendi"
+		},
+		{
+			"id": "8",
+			"nama": "ibuprofen",
+			"larangan": "Larangan minum bersama dengan obat golongan NSAID lainnya",
+			"dosis": "3 kali sehari, 400mg",
+			"jadwal": "Minum sebelum tidur",
+			"penyakit": "Masalah Kesehatan Tulang dan Sendi"
+		},
+		{
+			"id": "9",
+			"nama": "sertraline",
+			"larangan": "Larangan minum bersama dengan obat golongan SSRI lainnya",
+			"dosis": "1 kali sehari, 50mg",
+			"jadwal": "Minum sebelum tidur",
+			"penyakit": "Masalah Kesehatan Mental"
+		},
+		{
+			"id": "10",
+			"nama": "olanzapine",
+			"larangan": "Larangan minum bersama dengan obat golongan antipsychotic lainnya",
+			"dosis": "1 kali sehari, 10mg",
+			"jadwal": "Minum setelah makan",
+			"penyakit": "Masalah Kesehatan Mental"
+		},
+		{
+			"id": "11",
+			"nama": "zolpidem",
+			"larangan": "Larangan minum bersama dengan obat golongan sedatif hipnotik lainnya",
+			"dosis": "1 kali sehari, 10mg",
+			"jadwal": "Minum sebelum tidur",
+			"penyakit": "Masalah Tidur"
+		},
+		{
+			"id": "12",
+			"nama": "doxepin",
+			"larangan": "Larangan minum bersama dengan obat golongan tricyclic antidepressants lainnya",
+			"dosis": "1 kali sehari, 75mg",
+			"jadwal": "Minum sebelum tidur",
+			"penyakit": "Masalah Tidur"
+		}
+	]
 }
