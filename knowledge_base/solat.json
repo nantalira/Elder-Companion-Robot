@@ -1,76 +1,76 @@
 {
-    "solat": [
-        {
-            "id": "0",
-            "nama": "solat subuh",
-            "jadwal": "Sebelum matahari terbit atau sekitar jam 4.30 sampai 5.00",
-            "jam": "4.30",
-            "jenis": "wajib",
-            "tujuan": "mendapatkan cahaya pada hari kiamat"
-        },
-        {
-            "id": "1",
-            "nama": "solat zuhur",
-            "jadwal": "Setelah matahari tergelincir hingga sebelum matahari terbenam, atau sekitar jam 12.00 sampai 13.00",
-            "jam": "12.00",
-            "jenis": "wajib",
-            "tujuan": "terapi jantung dan pencernaan"
-        },
-        {
-            "id": "2",
-            "nama": "solat ashar",
-            "jadwal": "Setelah matahari terbenam hingga sebelum matahari terbenam kembali, atau sekitar jam 16.00 sampai 17.00",
-            "jam": "16.00",
-            "jenis": "wajib",
-            "tujuan": "pahala dua kali lipat"
-        },
-        {
-            "id": "3",
-            "nama": "solat maghrib",
-            "jadwal": "Setelah matahari terbenam, atau sekitar jam 18.00 sampai 18.30",
-            "jam": "18.00",
-            "jenis": "wajib",
-            "tujuan": "mempercepat dikabulkannya doa"
-        },
-        {
-            "id": "4",
-            "nama": "solat isya",
-            "jadwal": "Setelah solat maghrib hingga sebelum terbenamnya matahari keesokan harinya, atau sekitar jam 19.00 sampai 20.00",
-            "jam": "19.00",
-            "jenis": "wajib",
-            "tujuan": "mendapat pahala setara dengan melaksanakan shalat malam"
-        },
-        {
-            "id": "5",
-            "nama": "solat dhuha",
-            "jadwal": "Setelah terbitnya matahari hingga sebelum matahari tergelincir, atau sekitar jam 7.00 sampai 9.00",
-            "jam": "7.00",
-            "jenis": "sunnah",
-            "tujuan": "memperlancar rezeki"
-        },
-        {
-            "id": "6",
-            "nama": "solat tahajud",
-            "jadwal": "Setelah solat isya hingga sebelum subuh tetapi harus tidur terlebih dahulu, atau sekitar jam 22.00 sampai 3.00",
-            "jam": "22.00",
-            "jenis": "sunnah",
-            "tujuan": "dikabulkan doa dan diampuni dosa"
-        },
-        {
-            "id": "7",
-            "nama": "solat istikharah",
-            "jadwal": "Saat ingin membuat keputusan penting",
-            "jam": "Setiap saat",
-            "jenis": "sunnah",
-            "tujuan": "mendapatkan petunjuk dari allah"
-        },
-        {
-            "id": "8",
-            "nama": "solat hajat",
-            "jadwal": "Untuk memenuhi hajat yang mendesak atau keperluan yang harus segera dipenuhi",
-            "jam": "Setiap saat",
-            "jenis": "sunnah",
-            "tujuan": "keinginan cepat dikabulkan"
-        }
-    ]
+	"solat": [
+		{
+			"id": "0",
+			"nama": "solat subuh",
+			"jadwal": "Sebelum matahari terbit atau sekitar jam 4.30 sampai 5.00",
+			"jam": "4.30",
+			"jenis": "wajib",
+			"tujuan": "mendapatkan cahaya pada hari kiamat"
+		},
+		{
+			"id": "1",
+			"nama": "solat zuhur",
+			"jadwal": "Setelah matahari tergelincir hingga sebelum matahari terbenam, atau sekitar jam 12.00 sampai 13.00",
+			"jam": "12.00",
+			"jenis": "wajib",
+			"tujuan": "terapi jantung dan pencernaan"
+		},
+		{
+			"id": "2",
+			"nama": "solat ashar",
+			"jadwal": "Setelah matahari terbenam hingga sebelum matahari terbenam kembali, atau sekitar jam 16.00 sampai 17.00",
+			"jam": "16.00",
+			"jenis": "wajib",
+			"tujuan": "pahala dua kali lipat"
+		},
+		{
+			"id": "3",
+			"nama": "solat maghrib",
+			"jadwal": "Setelah matahari terbenam, atau sekitar jam 18.00 sampai 18.30",
+			"jam": "18.00",
+			"jenis": "wajib",
+			"tujuan": "mempercepat dikabulkannya doa"
+		},
+		{
+			"id": "4",
+			"nama": "solat isya",
+			"jadwal": "Setelah solat maghrib hingga sebelum terbenamnya matahari keesokan harinya, atau sekitar jam 19.00 sampai 20.00",
+			"jam": "19.00",
+			"jenis": "wajib",
+			"tujuan": "mendapat pahala setara dengan melaksanakan shalat malam"
+		},
+		{
+			"id": "5",
+			"nama": "solat dhuha",
+			"jadwal": "Setelah terbitnya matahari hingga sebelum matahari tergelincir, atau sekitar jam 7.00 sampai 9.00",
+			"jam": "7.00",
+			"jenis": "sunnah",
+			"tujuan": "memperlancar rezeki"
+		},
+		{
+			"id": "6",
+			"nama": "solat tahajud",
+			"jadwal": "Setelah solat isya hingga sebelum subuh tetapi harus tidur terlebih dahulu, atau sekitar jam 22.00 sampai 3.00",
+			"jam": "22.00",
+			"jenis": "sunnah",
+			"tujuan": "dikabulkan doa dan diampuni dosa"
+		},
+		{
+			"id": "7",
+			"nama": "solat istikharah",
+			"jadwal": "Saat ingin membuat keputusan penting",
+			"jam": "Setiap saat",
+			"jenis": "sunnah",
+			"tujuan": "mendapatkan petunjuk dari allah"
+		},
+		{
+			"id": "8",
+			"nama": "solat hajat",
+			"jadwal": "Untuk memenuhi hajat yang mendesak atau keperluan yang harus segera dipenuhi",
+			"jam": "Setiap saat",
+			"jenis": "sunnah",
+			"tujuan": "keinginan cepat dikabulkan"
+		}
+	]
 }
