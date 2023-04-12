@@ -59,5 +59,3 @@ Type "help", "copyright", "credits" or "license" for more information.
 True
 >>> exit()
 ```
-
-- lorem
