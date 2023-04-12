@@ -52,7 +52,7 @@
 - jika sudah selesai, keluar dari python environment dengan menjalankan `exit()`
 - model rasa terbaru butuh minimal versi rasa 3.5.0 , untuk upgrade ke latest version (3.5.4) : `pip3 install --upgrade rasa`
 - untuk upgrade ke versi spesifik, misal versi 3.5.0: `pip3 install rasa==3.5.0`
-- cek versinya di https://pypi.org/project/rasa/#history
+- cek versinya di <https://pypi.org/project/rasa/#history>
 
 #### contoh menjalankan python environment pada linux
 
