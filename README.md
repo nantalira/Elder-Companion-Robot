@@ -50,6 +50,9 @@
 - jika muncul error `punkt not found`, jalankan `python`. setelah itu, akan masuk ke python environment melalui terminal (barisnya dimulai dengan ">> " tanpa petik).
 - masih di dalam python environment, jalankan `import nltk`, kemudian jalankan `nltk.download("punkt")`
 - jika sudah selesai, keluar dari python environment dengan menjalankan `exit()`
+- model rasa terbaru butuh minimal versi rasa 3.5.0 , untuk upgrade ke latest version (3.5.4) : `pip3 install --upgrade rasa`
+- untuk upgrade ke versi spesifik, misal versi 3.5.0: `pip3 install rasa==3.5.0`
+- cek versinya di https://pypi.org/project/rasa/#history
 
 #### contoh menjalankan python environment pada linux
 
@@ -65,5 +68,3 @@ Type "help", "copyright", "credits" or "license" for more information.
 True
 >>> exit()
 ```
-
-- lorem
