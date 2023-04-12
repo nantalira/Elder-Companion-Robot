@@ -22,9 +22,15 @@
 ## COBA TTS dan STT
 
 - buka 3 terminal
-- terminal 1 run 'bot_speech.py'
-- terminal 2 run 'rasa run actions'
-- terminal 3 run 'rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml'
+- terminal 1 run `bot_speech.py`
+- terminal 2 run `rasa run actions`
+- terminal 3 run `rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml`
+
+## MENJALANKAN RASA MODEL
+
+- terminal 1 run `rasa run actions`
+- terminal 2 run `rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml`
+- terminal 3 run `rasa run --enable-api --cors "*"`
 
 ## DOKUMENTASI
 
