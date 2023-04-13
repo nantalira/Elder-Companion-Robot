@@ -407,14 +407,14 @@ class ActionOpenYoutube(Action):
         n = random.choice(mylist)
         penataan = hasil_akhir["videos"][n]["url_suffix"]
         dispatcher.utter_message(
-            "https://www.youtube.com/" +
+            "https://www.youtube.com" +
             penataan
         )
+        return []
 #         dispatcher.utter_message(
 #             text=f"Oke, saya akan putar {sentence} untuk anda")
 #         t = threading.Timer(300.0, self.close_browser)
 #         t.start()
-        return []
 
 #     def close_browser(self):
 #         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
