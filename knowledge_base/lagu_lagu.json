@@ -1,0 +1,54 @@
+{
+	"lagu_lagu": [
+		{
+			"id": "1",
+			"nama_lagu": "Metallica - Enter Sandman",
+			"url": "https://www.youtube.com/watch?v=CD-E-LDc384"
+		},
+		{
+			"id": "2",
+			"nama_lagu": "Metallica - Master of Puppets",
+			"url": "https://www.youtube.com/watch?v=xnKhsTXoKCI"
+		},
+		{
+			"id": "3",
+			"nama_lagu": "Metallica - One",
+			"url": "https://www.youtube.com/watch?v=WM8bTdBs-cw"
+		},
+		{
+			"id": "4",
+			"nama_lagu": "Metallica - Nothing Else Matters",
+			"url": "https://www.youtube.com/watch?v=tAGnKpE4NCI"
+		},
+		{
+			"id": "5",
+			"nama_lagu": "Metallica - The Unforgiven",
+			"url": "https://www.youtube.com/watch?v=Ckom3gf57Yw"
+		},
+		{
+			"id": "6",
+			"nama_lagu": "Bon Jovi - Livin' on a Prayer",
+			"url": "https://www.youtube.com/watch?v=lDK9QqIzhwk"
+		},
+		{
+			"id": "7",
+			"nama_lagu": "Bon Jovi - It's My Life",
+			"url": "https://www.youtube.com/watch?v=vx2u5uUu3DE"
+		},
+		{
+			"id": "8",
+			"nama_lagu": "Bon Jovi - Wanted Dead or Alive",
+			"url": "https://www.youtube.com/watch?v=SRvCvsRp5ho"
+		},
+		{
+			"id": "9",
+			"nama_lagu": "Bon Jovi - You Give Love a Bad Name",
+			"url": "https://www.youtube.com/watch?v=KrZHPOeOxQQ"
+		},
+		{
+			"id": "10",
+			"nama_lagu": "Bon Jovi - Always",
+			"url": "https://www.youtube.com/watch?v=9BMwcO6_hyA"
+		}
+	]
+}
