@@ -49,6 +49,31 @@
 			"id": "10",
 			"nama_lagu": "Bon Jovi - Always",
 			"url": "https://www.youtube.com/watch?v=9BMwcO6_hyA"
+		},
+		{
+			"id": "11",
+			"nama_lagu": "Frank Sinatra - My Way",
+			"url": "https://www.youtube.com/watch?v=qQzdAsjWGPg"
+		},
+		{
+			"id": "12",
+			"nama_lagu": "Frank Sinatra - Fly Me to the Moon",
+			"url": "https://www.youtube.com/watch?v=ZEcqHA7dbwM"
+		},
+		{
+			"id": "13",
+			"nama_lagu": "Frank Sinatra - New York, New York",
+			"url": "https://www.youtube.com/watch?v=le1QF3uoQNg"
+		},
+		{
+			"id": "14",
+			"nama_lagu": "Frank Sinatra - I've Got You Under My Skin",
+			"url": "https://www.youtube.com/watch?v=3SCtcLO43Kw"
+		},
+		{
+			"id": "15",
+			"nama_lagu": "Frank Sinatra - Strangers in the Night",
+			"url": "https://www.youtube.com/watch?v=Fd_3EkGr0-4"
 		}
 	]
 }
