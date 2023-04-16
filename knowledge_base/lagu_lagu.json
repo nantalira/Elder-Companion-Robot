@@ -74,6 +74,56 @@
 			"id": "15",
 			"nama_lagu": "Frank Sinatra - Strangers in the Night",
 			"url": "https://www.youtube.com/watch?v=Fd_3EkGr0-4"
+		},
+		{
+			"id": "15",
+			"nama_lagu": "The Beatles - Hey Jude",
+			"url": "https://www.youtube.com/watch?v=A_MjCqQoLLA"
+		},
+		{
+			"id": "16",
+			"nama_lagu": "The Beatles - Let It Be",
+			"url": "https://www.youtube.com/watch?v=QDYfEBY9NM4"
+		},
+		{
+			"id": "17",
+			"nama_lagu": "The Beatles - Yesterday",
+			"url": "https://www.youtube.com/watch?v=NrgmdOz227I"
+		},
+		{
+			"id": "18",
+			"nama_lagu": "The Beatles - Come Together",
+			"url": "https://www.youtube.com/watch?v=oolpPmuK2I8"
+		},
+		{
+			"id": "19",
+			"nama_lagu": "The Beatles - Twist and Shout",
+			"url": "https://www.youtube.com/watch?v=b-VAxGJdJeQ"
+		},
+		{
+			"id": "19",
+			"nama_lagu": "Westlife - My Love",
+			"url": "https://www.youtube.com/watch?v=ulOb9gIGGd0"
+		},
+		{
+			"id": "20",
+			"nama_lagu": "Westlife - Flying Without Wings",
+			"url": "https://www.youtube.com/watch?v=fZOW8ZuLG2o"
+		},
+		{
+			"id": "21",
+			"nama_lagu": "Westlife - I Have a Dream",
+			"url": "https://www.youtube.com/watch?v=_HkL8GuU9_0"
+		},
+		{
+			"id": "22",
+			"nama_lagu": "Westlife - Fool Again",
+			"url": "https://www.youtube.com/watch?v=H4BB9eGUEaE"
+		},
+		{
+			"id": "23",
+			"nama_lagu": "Westlife - Uptown Girl",
+			"url": "https://www.youtube.com/watch?v=0HTexqxo1og"
 		}
 	]
 }
