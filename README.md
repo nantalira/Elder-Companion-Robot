@@ -32,6 +32,12 @@
 - terminal 2 run `rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml`
 - terminal 3 run `rasa run --enable-api --cors "*"`
 
+## MENCOBA INTERAKSI LEWAT TERMINAL
+
+- terminal 1 run `rasa run actions`
+- terminal 2 run `rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml`
+- terminal 3 run `rasa shell`
+
 ## DOKUMENTASI
 
 - <https://drive.google.com/drive/folders/1L3cDgHGiyxP_GpPCTKIYgpFclBDEPYd5?usp=sharing>
