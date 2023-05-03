@@ -1,171 +1,179 @@
 version: "3.1"
 
 intents:
-    - greet
-    - affirm
-    - deny
-    - bot_challenge
-    - query_pengajian
-    - query_solat
-    - query_penyakit
-    - query_obat
-    - query_lagu_kesukaan
-    - command_hiburan
-    - command_stop
-    - query_kegiatan
-    - query_ulang_tahun
+  - greet
+  - affirm
+  - deny
+  - bot_challenge
+  - query_pengajian
+  - query_solat
+  - query_penyakit
+  - query_obat
+  - query_lagu_kesukaan
+  - command_hiburan
+  - command_stop
+  - query_kegiatan
+  - query_ulang_tahun
 
 entities:
-    - object_type
-    - attribute
-    - mention
-    - pengajian
-    - jadwal
-    - solat
-    - jenis
-    - penyakit
-    - obat
-    - nama_orang
-    - video_title
-    - tanggal_lahir
-    - jam
+  - object_type
+  - attribute
+  - mention
+  - pengajian
+  - jadwal
+  - solat
+  - jenis
+  - penyakit
+  - obat
+  - nama_orang
+  - video_title
+  - tanggal_lahir
+  - jam
 
 slots:
-    knowledge_base_last_object:
-        type: any
-        mappings:
-            - type: custom
+  knowledge_base_last_object:
+    type: any
+    mappings:
+      - type: custom
 
-    knowledge_base_last_object_type:
-        type: any
-        mappings:
-            - type: custom
+  knowledge_base_last_object_type:
+    type: any
+    mappings:
+      - type: custom
 
-    knowledge_base_listed_objects:
-        type: any
-        mappings:
-            - type: custom
+  knowledge_base_listed_objects:
+    type: any
+    mappings:
+      - type: custom
 
-    knowledge_base_objects:
-        type: any
-        mappings:
-            - type: custom
+  knowledge_base_objects:
+    type: any
+    mappings:
+      - type: custom
 
-    object_type:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: object_type
+  object_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
 
-    mention:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: mention
+  mention:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: mention
 
-    attribute:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: attribute
+  attribute:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: attribute
 
-    pengajian:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: pengajian
+  pengajian:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: pengajian
 
-    jadwal:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: jadwal
+  jadwal:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: jadwal
 
-    solat:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: solat
+  solat:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: solat
 
-    jenis:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: jenis
+  jenis:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: jenis
 
-    penyakit:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: penyakit
+  penyakit:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: penyakit
 
-    obat:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: obat
+  obat:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: obat
 
-    nama_orang:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: nama_orang
+  nama_orang:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: nama_orang
 
-    video_title:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: video_title
+  video_title:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: video_title
 
-    tanggal_lahir:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: tanggal_lahir
+  tanggal_lahir:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: tanggal_lahir
 
-    jam:
-        type: text
-        influence_conversation: false
-        mappings:
-            - type: from_entity
-              entity: jam
+  jam:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: jam
+
+  lagu_lagu:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: lagu_lagu
 
 actions:
-    - action_ask_again
-    - action_query_pengajian
-    - action_query_solat
-    - action_query_penyakit
-    - action_query_obat
-    - action_query_lagu_kesukaan
-    - action_query_kegiatan
-    - action_query_ulang_tahun
-    - action_query_hiburan
-    - action_query_stop
-    - action_query_lagu_ulang_tahun
+  - action_ask_again
+  - action_query_pengajian
+  - action_query_solat
+  - action_query_penyakit
+  - action_query_obat
+  - action_query_lagu_kesukaan
+  - action_query_kegiatan
+  - action_query_ulang_tahun
+  - action_query_hiburan
+  - action_query_stop
+  - action_query_lagu_ulang_tahun
+  - action_query_lagu_lagu
 
 responses:
-    utter_greet:
-        - text: "Halo saya sekar. Saya menyediakan informasi mengenai pengajian, solat, penyakit, obat, dan lagu kesukaan anda. Selain itu, saya dapat memainkan beberapa hiburan dalam bentuk suara seperti lagu, ceramah, ataupun cerita. Apa yang ingin anda ketahui?"
+  utter_greet:
+    - text: "Halo saya sekar. Saya menyediakan informasi mengenai pengajian, solat, penyakit, obat, dan lagu kesukaan anda. Selain itu, saya dapat memainkan beberapa hiburan dalam bentuk suara seperti lagu, ceramah, ataupun cerita. Apa yang ingin anda ketahui?"
 
-    utter_goodbye:
-        - text: "Terimakasih sudah menggunakan layanan kami. Sampai jumpa!"
+  utter_goodbye:
+    - text: "Terimakasih sudah menggunakan layanan kami. Sampai jumpa!"
 
-    utter_ask_rephrase:
-        - text: "Maaf, saya tidak mengerti maksud anda."
-        - text: "Bisakah anda mengulanginya?"
+  utter_ask_rephrase:
+    - text: "Maaf, saya tidak mengerti maksud anda."
+    - text: "Bisakah anda mengulanginya?"
 
 session_config:
-    session_expiration_time: 60
-    carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,129 @@
+{
+	"lagu_lagu": [
+		{
+			"id": "1",
+			"nama_lagu": "Metallica - Enter Sandman",
+			"url": "https://www.youtube.com/watch?v=CD-E-LDc384"
+		},
+		{
+			"id": "2",
+			"nama_lagu": "Metallica - Master of Puppets",
+			"url": "https://www.youtube.com/watch?v=xnKhsTXoKCI"
+		},
+		{
+			"id": "3",
+			"nama_lagu": "Metallica - One",
+			"url": "https://www.youtube.com/watch?v=WM8bTdBs-cw"
+		},
+		{
+			"id": "4",
+			"nama_lagu": "Metallica - Nothing Else Matters",
+			"url": "https://www.youtube.com/watch?v=tAGnKpE4NCI"
+		},
+		{
+			"id": "5",
+			"nama_lagu": "Metallica - The Unforgiven",
+			"url": "https://www.youtube.com/watch?v=Ckom3gf57Yw"
+		},
+		{
+			"id": "6",
+			"nama_lagu": "Bon Jovi - Livin' on a Prayer",
+			"url": "https://www.youtube.com/watch?v=lDK9QqIzhwk"
+		},
+		{
+			"id": "7",
+			"nama_lagu": "Bon Jovi - It's My Life",
+			"url": "https://www.youtube.com/watch?v=vx2u5uUu3DE"
+		},
+		{
+			"id": "8",
+			"nama_lagu": "Bon Jovi - Wanted Dead or Alive",
+			"url": "https://www.youtube.com/watch?v=SRvCvsRp5ho"
+		},
+		{
+			"id": "9",
+			"nama_lagu": "Bon Jovi - You Give Love a Bad Name",
+			"url": "https://www.youtube.com/watch?v=KrZHPOeOxQQ"
+		},
+		{
+			"id": "10",
+			"nama_lagu": "Bon Jovi - Always",
+			"url": "https://www.youtube.com/watch?v=9BMwcO6_hyA"
+		},
+		{
+			"id": "11",
+			"nama_lagu": "Frank Sinatra - My Way",
+			"url": "https://www.youtube.com/watch?v=qQzdAsjWGPg"
+		},
+		{
+			"id": "12",
+			"nama_lagu": "Frank Sinatra - Fly Me to the Moon",
+			"url": "https://www.youtube.com/watch?v=ZEcqHA7dbwM"
+		},
+		{
+			"id": "13",
+			"nama_lagu": "Frank Sinatra - New York, New York",
+			"url": "https://www.youtube.com/watch?v=le1QF3uoQNg"
+		},
+		{
+			"id": "14",
+			"nama_lagu": "Frank Sinatra - I've Got You Under My Skin",
+			"url": "https://www.youtube.com/watch?v=3SCtcLO43Kw"
+		},
+		{
+			"id": "15",
+			"nama_lagu": "Frank Sinatra - Strangers in the Night",
+			"url": "https://www.youtube.com/watch?v=Fd_3EkGr0-4"
+		},
+		{
+			"id": "15",
+			"nama_lagu": "The Beatles - Hey Jude",
+			"url": "https://www.youtube.com/watch?v=A_MjCqQoLLA"
+		},
+		{
+			"id": "16",
+			"nama_lagu": "The Beatles - Let It Be",
+			"url": "https://www.youtube.com/watch?v=QDYfEBY9NM4"
+		},
+		{
+			"id": "17",
+			"nama_lagu": "The Beatles - Yesterday",
+			"url": "https://www.youtube.com/watch?v=NrgmdOz227I"
+		},
+		{
+			"id": "18",
+			"nama_lagu": "The Beatles - Come Together",
+			"url": "https://www.youtube.com/watch?v=oolpPmuK2I8"
+		},
+		{
+			"id": "19",
+			"nama_lagu": "The Beatles - Twist and Shout",
+			"url": "https://www.youtube.com/watch?v=b-VAxGJdJeQ"
+		},
+		{
+			"id": "19",
+			"nama_lagu": "Westlife - My Love",
+			"url": "https://www.youtube.com/watch?v=ulOb9gIGGd0"
+		},
+		{
+			"id": "20",
+			"nama_lagu": "Westlife - Flying Without Wings",
+			"url": "https://www.youtube.com/watch?v=fZOW8ZuLG2o"
+		},
+		{
+			"id": "21",
+			"nama_lagu": "Westlife - I Have a Dream",
+			"url": "https://www.youtube.com/watch?v=_HkL8GuU9_0"
+		},
+		{
+			"id": "22",
+			"nama_lagu": "Westlife - Fool Again",
+			"url": "https://www.youtube.com/watch?v=H4BB9eGUEaE"
+		},
+		{
+			"id": "23",
+			"nama_lagu": "Westlife - Uptown Girl",
+			"url": "https://www.youtube.com/watch?v=0HTexqxo1og"
+		}
+	]
+}
